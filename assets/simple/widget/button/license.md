@@ -1,0 +1,11 @@
+
+- `dropdown.png`, `regex.png`, `matchcase.png`, `highlight.png` designed by [Freepik](http://www.freepik.com/)
+ from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
+- `context.png`, `word.png` designed by [Smartline](https://www.flaticon.com/authors/smartline)
+ from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
+- `wrap.png`, `buffer.png` designed by [Gregor Cresnar](https://www.flaticon.com/authors/gregor-cresnar)
+ from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
+- `inselection.png`, `reverse.png` designed by [Madebyoliver](https://www.flaticon.com/authors/madebyoliver)
+ from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
+- `replace-preserve-case.png` designed by [Vectors Market](https://www.flaticon.com/authors/vectors-market)
+ from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)

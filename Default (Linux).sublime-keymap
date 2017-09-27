@@ -1,0 +1,4 @@
+[
+	{ "keys": ["ctrl+f11"], "command": "guna_toggle_full_screen" },
+	{ "keys": ["f5"], "command": "refresh_folder_list" }
+]

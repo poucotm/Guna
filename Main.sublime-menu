@@ -1,0 +1,37 @@
+[
+	{
+		"caption": "Preferences",
+		"mnemonic": "n",
+		"id": "preferences",
+		"children":
+		[
+			{
+				"caption": "Package Settings",
+				"mnemonic": "P",
+				"id": "package-settings",
+				"children":
+				[
+					{
+						"caption": "Guna",
+						"children":
+						[
+							{
+								"caption": "README",
+								"command": "guna_readme"
+							},
+							{ "caption": "-" },
+							{
+								"caption": "Settings",
+								"command": "edit_settings",
+								"args": {
+									"base_file": "${packages}/Guna/Guna.sublime-settings",
+									"default": "// Specify your own settings. You don't need to restart\n{\n\n}\n"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

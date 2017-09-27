@@ -1,0 +1,60 @@
+{
+	/*  UI Configuration  _________________________________________
+	*/
+
+	// Select the sidebar widget ("", "clock")
+	"sidebar_widget": "clock",
+
+	// Hide tab close button
+	"hide_tab_close": false,
+
+	// Hide tab dropdown button
+	"hide_tab_dropdown": false,
+
+	// Automatically show/hide scroll bars (Windows/Linux)
+	"overlay_scroll_bars": true,
+
+	// Use selected box in sidebar
+	"sidebar_selected_box": true,
+
+	// Color of selected tab label ("default:white", "yellow", "green", "blue")
+	"tab_selected_color": "default",
+
+	// Color of status bar message ("default:blue", "yellow", "red", "green")
+	"status_bar_color": "default",
+
+	/*  UI Font Configuration  ____________________________________
+
+		Selectable font list
+			"Dejavu Sans", "Source Sans Pro", "Open Sans", "Roboto", "Roboto Condensed"
+
+		Selectable font size
+			10, 11, 12, 13, 14
+	*/
+
+	// Select tab font bold type or not
+	"tab_font.bold": false,
+
+	// Select tab font, default is 'Dejavu Sans'
+	"tab_font.face": "default",
+	"tab_font.size": 12,
+
+	// Select label font, default is 'Dejavu Sans'
+	"label_font.face": "default",
+	"label_font.size": 12,
+
+	// Select sidebar font, default is 'Dejavu Sans'
+	"sidebar_font.face": "default",
+	"sidebar_font.size": 12,
+
+	// Select status bar font, default is 'Roboto Condensed'
+	"status_bar_font.face": "default",
+	"status_bar_font.size": 12,
+
+	/*  etc.  _____________________________________________________
+	*/
+
+	// Always start with full screen mode, hiding menu bar
+	// You can toggle by using 'ctrl+f11' (Windows/Linux), 'cmd+ctrl+f11' (OSX)
+	"full_screen_on_start": false
+}

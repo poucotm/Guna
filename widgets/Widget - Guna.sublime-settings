@@ -1,0 +1,9 @@
+{
+  "color_scheme": "Packages/Guna/widgets/Widget - Guna.stTheme",
+  "draw_shadows": false,
+  // do not set here, use parent's option
+  // "font_options": ["subpixel_antialias", "gray_antialias", "directwrite"],
+  // "font_size": 10,
+  "line_padding_top": 2,
+  "line_padding_bottom": 0
+}
