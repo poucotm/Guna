@@ -14,21 +14,21 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#1C232C</string>
+				<string>#base-color+2i</string>
 				<key>caret</key>
 				<string>#F29718</string>
 				<key>foreground</key>
-				<string>#FFCC99</string>
+				<string>#panel-font-color-sel</string>
 				<key>inactiveSelection</key>
-				<string>#1F2832</string>
+				<string>#base-color+3i</string>
 				<key>invisibles</key>
 				<string>#343434</string>
 				<key>lineHighlight</key>
 				<string>#283240</string>
 				<key>selection</key>
-				<string>#1F2832</string>
+				<string>#base-color+3i</string>
 				<key>selectionBorder</key>
-				<string>#1F2832</string>
+				<string>#base-color+3i</string>
 			</dict>
 		</dict>
 		<dict>
@@ -43,7 +43,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#1C232C</string>
+				<string>#base-color+2i</string>
 			</dict>
 		</dict>
 	</array>

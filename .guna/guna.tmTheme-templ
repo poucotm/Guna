@@ -16,7 +16,7 @@
 				<key>activeGuide</key>
 				<string>#314559</string>
 				<key>background</key>
-				<string>#161C23</string>
+				<string>#base-color</string>
 				<key>caret</key>
 				<string>#FFAA00</string>
 				<key>findHighlight</key>
@@ -28,7 +28,7 @@
 				<key>guide</key>
 				<string>#20272E</string>
 				<key>gutter</key>
-				<string>#161C23</string>
+				<string>#base-color</string>
 				<key>gutterForeground</key>
 				<string>#515F66</string>
 				<key>inactiveBackground</key>
@@ -38,7 +38,7 @@
 				<key>invisibles</key>
 				<string>#FF0000</string>
 				<key>lineHighlight</key>
-				<string>#1F2832</string>
+				<string>#base-color+3</string>
 				<key>selection</key>
 				<string>#3A5166</string>
 				<key>selectionBorder</key>

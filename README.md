@@ -6,15 +6,11 @@
 
 ### Fonts
 
-Guna uses [__Dejavu Sans__][L1] as default font for UI and [Roboto Condensed][L2] is used only for status bar. But you can change them in user settings among 5 fonts - [Dejavu Sans][L1], [Source Sans Pro][L3], [Open Sans][L4], [Roboto][L2], [Roboto Condensed][L2]. The editor font is [Meslo][L5] in screenshots above. For __Sublime Text 3 (3143)__ on Windows, in order to apply *Roboto Condensed*, you may have to add __*"theme_font_options": "gdi"*__ in Preference.sublime-settings.
+Guna uses [__Dejavu Sans__][L1] as default font for UI and [Roboto Condensed][L2] is used only for status bar. But you can change them in the theme-tweak settings as you want. The editor font is [Meslo][L5] in screenshots above. For __Sublime Text 3 (3143)__ on Windows, in order to apply *Roboto Condensed*, you may have to add __*"theme_font_options": "gdi"*__ in Preference.sublime-settings.
 
 ### Theme Activation
 
-Simply, run __*Guna*__ in __*command palette*__ (*cmd/ctrl+shift+p*). You don't need to edit __*theme*__ and __*color_scheme*__ directly in settings. I recommend that you select __*View > Side Bar > Hide Open Files*__ for better view. When Guna removed, it automatically restores theme and color scheme as the last before activating Guna. Guna supports [SublimeLinter][L8] not to override color-scheme.
-
-### Settings
-
-__DO NOT__ directly edit __*Preferences.sublime-settings*__. Use __*User/Guna.sublime-settings*__ by selecting __*Preferences > Package Settings > Guna > settings*__ menu. That is more comfortable. It will take effect in a second. There is no need to restart sublime text. Various options are ready to control UI like show/hide clock, colors, fonts, etc. Please, refer to [__Guna.sublime-settings__][L6]
+Simply, run __*Guna*__ in __*command palette*__ (*cmd/ctrl+shift+p*). I recommend that you select __*View > Side Bar > Hide Open Files*__ for better view. When Guna removed, it automatically restores theme and color scheme as the last before activating Guna. Guna supports [SublimeLinter][L8] not to override color scheme.
 
 ### Clock Color
 
@@ -25,13 +21,15 @@ The color of clock expresses the status of active view.
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-reado.png) : Read only state  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-alert.png) : Alert state (only controlled by API)
 
-### Full Screen On Start
+### Tweak Theme
 
-__*ctrl+f11*__(Windows/Linux), __*cmd+ctrl+f11*__(OSX) are full screen toggle keys on full screen start mode. You can turn on that mode in __*Guna.sublime-settings*__. The menu bar will be hidden in full screen mode and shown in normal mode. I recommend that you simply override original full screen toggle key as __*guna_toggle_full_screen*__. It acts as original when you turn off that mode.
+You can tweak fonts / colors by changing [__Guna.sublime-settings__][L6]. Run __*Guna : Tweak Theme*__ in __*command palette*__ (*cmd/ctrl+shift+p*) to apply your settings. Basically, by matching background color, Guna can be combined with other color schemes, like Monokai, Mariana, Ayu, ... Some examples are below. ([pre-set colors for dark / light theme][L9])
 
-### Key Map
+Guna + Ayu-light
+[![Image of Guna][S3]][S3]
 
-__*f5*__(Windows/Linux), __*alt+f5*__(OSX) are assigned for refresh folder list in side bar.
+Guna + Mariana
+[![Image of Guna][S4]][S4]
 
 ### API
 
@@ -42,36 +40,7 @@ If you want to see the example, simply type __*raise*__ in Sublime console.
 <sup>(example - status bar label)</sup>  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-alert-0.png)
 
-<sup>(example - status bar background)</sup>  
-![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-alert-1.png)
-
-```python
-# API import
-
-from Guna.core.api import GunaApi
-
-# API functions
-
-GunaApi.alert(flag=0, onoff=False):
-    """
-    Makes the clock, status bar red for alarming
-
-    flag = GunaApi.ALERT_CLOCK | GunaApi.ALRT_STATUS_LABEL | GunaApi.ALERT_STATUS_BG
-    """
-
-GunaApi.alert_message(flag=0, message='', timeout=4, action=0):
-    """
-    Makes red with a status message in a timeout(seconds).
-    Within a timeout, a new message request will be ignored (will be replaced as a queue).
-
-    action = GunaApi.FLICKER
-    """
-```
-
-
-### Environment
-
-Mainly designed and developed at **Sublime Text 3 (3126)** on Windows7 with non-high dpi display. Operation is not guranteed at lower versions. Occasionally, tested on OSX / Linux, the views are not exaclty same.
+Please, refer to [__Guna's API__][L10]
 
 ### File Type Icons
 
@@ -93,6 +62,8 @@ Guna is licensed under a [Creative Commons Attribution-NonCommercial 4.0 Interna
 
 [S1]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot-1.png "enlarge"
 [S2]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot-2.png "enlarge"
+[S3]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot-3.png "enlarge"
+[S4]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot-4.png "enlarge"
 [L1]:https://dejavu-fonts.github.io/ "Dejavu Sans"
 [L2]:https://fonts.google.com/specimen/Roboto "Roboto Family"
 [L3]:https://fonts.google.com/specimen/Source+Sans+Pro "Source Sans Pro"
@@ -101,5 +72,7 @@ Guna is licensed under a [Creative Commons Attribution-NonCommercial 4.0 Interna
 [L6]:https://github.com/poucotm/Guna/blob/master/Guna.sublime-settings "Guna Settings"
 [L7]:https://packagecontrol.io/packages/A%20File%20Icon "A File Icon"
 [L8]:https://packagecontrol.io/packages/SublimeLinter "SublimeLinter"
+[L9]:https://github.com/poucotm/Guna/blob/master/themes/preset/theme-settings.md
+[L10]:https://github.com/poucotm/Guna/blob/master/README-API.md "Guna API"
 [PP]:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=89YVNDSC7DZHQ "PayPal"
 [PM]:https://www.paypal.me/poucotm/2.5 "PayPal"
