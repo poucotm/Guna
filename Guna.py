@@ -62,7 +62,7 @@ def plugin_loaded():
         GunaApi.alert_message(3, " GUNA : Error in reloading sub-modules, Please, restart sublime text", 15, 1)
         return
 
-    if package_control_installed and events.install('Guna'):
+    if package_control_installed and (events.install('Guna') or events.post_upgrade('Guna')):
         def installed():
             # automatically set theme
             sublime.active_window().run_command('guna_set_theme')
@@ -71,7 +71,7 @@ def plugin_loaded():
             # engine start
             engine.start()
             # show `Read Me` @ first
-            sublime.active_window().run_command('guna_readme')
+            # sublime.active_window().run_command('guna_readme')
 
         sublime.set_timeout_async(installed, 1000)
     else:
@@ -85,7 +85,7 @@ def plugin_unloaded():
 
     # engine stop
     if package_control_installed:
-        if events.remove('Guna'):
+        if events.remove('Guna') or events.pre_upgrade('Guna'):
             engine.stop()
     pass
 
