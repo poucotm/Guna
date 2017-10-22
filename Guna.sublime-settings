@@ -18,9 +18,15 @@
 	"sidebar_selected_box": true,
 
 	/*  Theme Tweak  ______________________________________________
-	     - Run 'Guna : Tweak Theme' to apply settings
-	       (You need to restart for the input panel)
+		- "adaptive" mode : automatically changes colors based on
+			the color scheme you selected
+		- "manual" mode : change colors as the following settings.
+			Then Run `Guna : Tweak Theme` to apply settings.
+		- You need to restart once for the input panel
 	*/
+
+	// Mode - ("adaptive", "manual")
+	"tweak_mode": "adaptive",
 
 	// Set background color
 	"base-color": "#161C23", // use "#131B1F" when too bluish

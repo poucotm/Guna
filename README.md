@@ -23,7 +23,7 @@ The color of clock expresses the status of active view.
 
 ### Tweak Theme
 
-You can tweak fonts / colors by changing [__Guna.sublime-settings__][L6]. Run __*Guna : Tweak Theme*__ in __*command palette*__ (*cmd/ctrl+shift+p*) to apply your settings. Basically, by matching background color, Guna can be combined with other color schemes, like Monokai, Mariana, Ayu, ... Some examples are below. ([pre-set colors for dark / light theme][L9])
+On __*adaptive*__ mode, Guna automatically tweaks theme colors to match selected other color-scheme. On __*manual*__ mode, you can tweak fonts / colors by changing [__Guna.sublime-settings__][L6]. Run __*Guna : Tweak Theme*__ in __*command palette*__ (*cmd/ctrl+shift+p*) to apply your settings. Basically, by matching background color, Guna can be combined with other color schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once for the input panel change.
 
 Guna + Ayu-light
 [![Image of Guna][S3]][S3]

@@ -1,0 +1,41 @@
+{
+	// Set background color
+	"base-color": "#FFFFFF",
+
+	// Clock
+	"clock.color": "#ED9366",
+	"clock.color.dirty": "#FF1919",
+	"clock.color.readonly": "#4b4b4b",
+	"clock.color.alert": "#FF1919",
+
+	// Icon
+	"icon.color": "#ABB0B6",
+	"icon.color.selected": "#ED9366",
+	"icon.color.pressed": "#FF5500",
+	"icon.color.hover": "#0095B3",
+
+	// Select tab font
+	"tab_font.color": "#ABB0B6",
+	"tab_font.color.selected": "#6E7580",
+	"tab_font.color.hover": "#ED9366",
+	"tab_font.color.dirty": "#FF1919",
+
+	// Select label font
+	"label_font.color": "#B3AA59",
+
+	// Select sidebar font
+	"sidebar_font.color": "#ABB0B6",
+	"sidebar_font.color.selected": "#ED9366",
+
+	// Select status bar font
+	"status_bar_font.color": "#0095B3",
+
+	// Panel, Widget
+	"panel_font.color": "#B4A7C0",
+	"panel_font.color.selected": "#A37ACC",
+	"panel_font.color.match": "#8DB386",
+	"panel_font.color.match.selected": "#6DA363",
+
+	// Scroll bar
+	"scroll_bars.color": "#4CBF99"
+}
