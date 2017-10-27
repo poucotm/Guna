@@ -25,11 +25,12 @@ The color of clock expresses the status of active view.
 
 On __*adaptive*__ mode, Guna automatically tweaks theme colors to match selected other color-scheme. On __*manual*__ mode, you can tweak fonts / colors by changing [__Guna.sublime-settings__][L6]. Run __*Guna : Tweak Theme*__ in __*command palette*__ (*cmd/ctrl+shift+p*) to apply your settings. Basically, by matching background color, Guna can be combined with other color schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once for the input panel change.
 
-Guna + Ayu-light
+Guna + Ayu-light  
 [![Image of Guna][S3]][S3]
 
-Guna + Mariana
-[![Image of Guna][S4]][S4]
+Adaptive Mode Testing Shot  
+
+[![Image of Guna][S5]][S5]
 
 ### API
 
@@ -64,6 +65,7 @@ Guna is licensed under a [Creative Commons Attribution-NonCommercial 4.0 Interna
 [S2]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot-2.png "enlarge"
 [S3]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot-3.png "enlarge"
 [S4]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot-4.png "enlarge"
+[S5]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-adaptive.gif "enlarge"
 [L1]:https://dejavu-fonts.github.io/ "Dejavu Sans"
 [L2]:https://fonts.google.com/specimen/Roboto "Roboto Family"
 [L3]:https://fonts.google.com/specimen/Source+Sans+Pro "Source Sans Pro"
