@@ -19,23 +19,29 @@ The color of clock expresses the status of active view.
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-normal.png) : Normal state  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-dirty.png) : Dirty or scrach state  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-reado.png) : Read only state  
-![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-alert.png) : Alert state (only controlled by API)
+![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-alert.png) : Alert state (only controlled by API)  
+
+### Weather Widget
+
+![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-weather.png)
+
+The weather widget is added (from v1.4.0). The widget uses [https://openweathermap.org](https://openweathermap.org) for weather information and you can access after getting your own [__AppID__](http://openweathermap.org/appid). After getting it, fill out weather settings in [__Guna.sublime-settings__][L6]. The 1st icon means current weather, the 2nd icon means forecast in 3 hours, the 3rd icon means forecast in 6 hours. Normally, it will be updated every an hour.
 
 ### Tweak Theme
 
 On __*adaptive*__ mode, Guna automatically tweaks theme colors to match selected other color-scheme. On __*manual*__ mode, you can tweak fonts / colors by changing [__Guna.sublime-settings__][L6]. Run __*Guna : Tweak Theme*__ in __*command palette*__ (*cmd/ctrl+shift+p*) to apply your settings. Basically, by matching background color, Guna can be combined with other color schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once for the input panel change.
 
-Guna + Ayu-light  
+Guna + Ayu-light
 [![Image of Guna][S3]][S3]
 
-Adaptive Mode Testing Shot  
+Adaptive Mode Testing Shot
 
 [![Image of Guna][S5]][S5]
 
 ### API
 
-You can control Guna's screen through Guna's APIs. 
-Currently, there are two functions for displaying alert situation. 
+You can control Guna's screen through Guna's APIs.
+Currently, there are two functions for displaying alert situation.
 If you want to see the example, simply type __*raise*__ in Sublime console.
 
 <sup>(example - status bar label)</sup>  
@@ -50,12 +56,12 @@ In screenshots above, [A File Icon][L7] is used, and recommended.
 
 ### Donate
 
-[![Doate Image](https://raw.githubusercontent.com/poucotm/Links/master/image/PayPal/donate-paypal.png)][PM]  
+[![Doate Image](https://raw.githubusercontent.com/poucotm/Links/master/image/PayPal/donate-paypal.png)][PM]
 Thank you for donating. It is helpful to continue to improve the plug-in.
 
 ### Credits
 
-- Icons designed by [Freepik](http://www.freepik.com/), [Dave Gandy](https://www.flaticon.com/authors/dave-gandy), [Madebyoliver](https://www.flaticon.com/authors/madebyoliver), [Gregor Cresnar](https://www.flaticon.com/authors/gregor-cresnar), [Smartline](https://www.flaticon.com/authors/smartline), [Vectors Market](https://www.flaticon.com/authors/vectors-market) from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
+- Icons designed by [Freepik](http://www.freepik.com/), [Dave Gandy](https://www.flaticon.com/authors/dave-gandy), [Madebyoliver](https://www.flaticon.com/authors/madebyoliver), [Gregor Cresnar](https://www.flaticon.com/authors/gregor-cresnar), [Smartline](https://www.flaticon.com/authors/smartline), [Vectors Market](https://www.flaticon.com/authors/vectors-market), [Alfredo Hernandez](https://www.alfredocreates.com/) from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
 
 ### License
 
