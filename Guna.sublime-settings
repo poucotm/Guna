@@ -2,7 +2,8 @@
 	/*  UI Configuration  _________________________________________
 	*/
 
-	// Select the sidebar widget ("", "clock", "weather")
+	// Select the sidebar widget ("", "clock", "weather", "clock-weather")
+	// Widget switching is possible by using 'shift+esc' for "clock-weather"
 	"sidebar_widget": "clock",
 
 	// Hide tab close button
