@@ -56,7 +56,7 @@ In screenshots above, [A File Icon][L7] is used, and recommended.
 
 ### Donate
 
-[![Doate Image](https://raw.githubusercontent.com/poucotm/Links/master/image/PayPal/donate-paypal.png)][PM]
+[![Doate Image](https://raw.githubusercontent.com/poucotm/Links/master/image/PayPal/donate-paypal.png)][PM]  
 Thank you for donating. It is helpful to continue to improve the plug-in.
 
 ### Credits
