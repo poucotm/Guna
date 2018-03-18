@@ -1,40 +1,40 @@
 [![Image of Guna][S1]][S1]
-[![Image of Guna][S2]][S2]
 
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/Guna.svg?style=round-square)](https://packagecontrol.io/packages/Guna)
 [![PayPal](https://img.shields.io/badge/paypal-donate-blue.svg)][PM]
+
+Guna is most innovative theme for sublime text 3. It supports various functions : conspicuous widgets (clock, weather) on sidebar, manually or adaptively tweakable theme colors, controlling status bar label by its own api.
+
+### Theme Activation
+
+Simply, run __*Guna*__ in __*command palette*__ (*cmd/ctrl+shift+p*). In case that other color-scheme is selected on adaptive mode, it reverts to Guna's original color-scheme. I recommend that you select __*View > Side Bar > Hide Open Files*__ for better view. When Guna removed, it automatically restores theme and color-scheme as the last before activating Guna.
 
 ### Fonts
 
 Guna uses [__Dejavu Sans__][L1] as default font for UI and [Roboto Condensed][L2] is used only for status bar. But you can change them in the theme-tweak settings as you want. The editor font is [Meslo][L5] in screenshots above. For __Sublime Text 3 (3143)__ on Windows, in order to apply *Roboto Condensed*, you may have to add __*"theme_font_options": "gdi"*__ in Preference.sublime-settings.
 
-### Theme Activation
+### Widgets
 
-Simply, run __*Guna*__ in __*command palette*__ (*cmd/ctrl+shift+p*). I recommend that you select __*View > Side Bar > Hide Open Files*__ for better view. When Guna removed, it automatically restores theme and color scheme as the last before activating Guna. Guna supports [SublimeLinter][L8] not to override color scheme.
-
-### Clock Color
-
-The color of clock expresses the status of active view.
+__Clock__ : The color of clock expresses the status of active view.
 
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-normal.png) : Normal state  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-dirty.png) : Dirty or scrach state  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-reado.png) : Read only state  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-alert.png) : Alert state (only controlled by API)  
 
-### Weather Widget
+__Weather__ : The weather widget is added (from v1.4.0). The widget uses [https://openweathermap.org](https://openweathermap.org) for weather information and you can access after getting your own [__AppID__](http://openweathermap.org/appid). After getting it, fill out weather settings in [__Guna.sublime-settings__][L6]. The 1st icon means current weather, the 2nd icon means forecast in 3 hours, the 3rd icon means forecast in 6 hours. Normally, it will be updated every half an hour.
 
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-weather.png)
 
-The weather widget is added (from v1.4.0). The widget uses [https://openweathermap.org](https://openweathermap.org) for weather information and you can access after getting your own [__AppID__](http://openweathermap.org/appid). After getting it, fill out weather settings in [__Guna.sublime-settings__][L6]. The 1st icon means current weather, the 2nd icon means forecast in 3 hours, the 3rd icon means forecast in 6 hours. Normally, it will be updated every an hour.
+
 
 ### Tweak Theme
 
-On __*adaptive*__ mode, Guna automatically tweaks theme colors to match selected other color-scheme. On __*manual*__ mode, you can tweak fonts / colors by changing [__Guna.sublime-settings__][L6]. Run __*Guna : Tweak Theme*__ in __*command palette*__ (*cmd/ctrl+shift+p*) to apply your settings. Basically, by matching background color, Guna can be combined with other color schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once for the input panel change.
+__Manual__ mode : you can tweak fonts / colors as you want by changing [__Guna.sublime-settings__][L6]. After changing, run __*Guna : Tweak Theme*__ in __*command palette*__ (*cmd/ctrl+shift+p*) to apply your settings.
 
-Guna + Ayu-light
-[![Image of Guna][S3]][S3]
+__Adaptive__ mode : Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color- schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once for the input panel change.
 
-Adaptive Mode Testing Shot
+__*Adaptive Mode Testing Shot*__
 
 [![Image of Guna][S5]][S5]
 
@@ -67,9 +67,7 @@ Thank you for donating. It is helpful to continue to improve the plug-in.
 
 Guna is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
-[S1]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot-1.png "enlarge"
-[S2]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot-2.png "enlarge"
-[S3]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot-3.png "enlarge"
+[S1]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot.png "enlarge"
 [S4]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-screenshot-4.png "enlarge"
 [S5]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-adaptive.gif "enlarge"
 [L1]:https://dejavu-fonts.github.io/ "Dejavu Sans"

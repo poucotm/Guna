@@ -130,7 +130,7 @@
 			"frame_time": 0.05
 		},
 		"layer1.opacity": 1,
-		"layer1.tint": [246, 195, 58],
+		"layer1.tint": [238, 180, 24],
 		"layer1.inner_margin": [32, 32, 0, 0],
 		"content_margin": [40, 4, 10, 4]
 	},
@@ -213,9 +213,9 @@
 	{ "class": "sidebar_container", "layer3.inner_margin": [110, 35, 0, 0], "settings" : ["gnc_m08", "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m08.png", "layer3.opacity": 1 },
 	{ "class": "sidebar_container", "layer3.inner_margin": [110, 35, 0, 0], "settings" : ["gnc_m09", "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m09.png", "layer3.opacity": 1 },
 
-	{ "class": "sidebar_container", "settings" : ["gnwidg1"], "layer1.tint": [246, 195, 58] },
-	{ "class": "sidebar_container", "settings" : ["gnwidg1"], "layer2.tint": [246, 195, 58] },
-	{ "class": "sidebar_container", "settings" : ["gnwidg1"], "layer3.tint": [246, 195, 58] },
+	{ "class": "sidebar_container", "settings" : ["gnwidg1"], "layer1.tint": [238, 180, 24] },
+	{ "class": "sidebar_container", "settings" : ["gnwidg1"], "layer2.tint": [238, 180, 24] },
+	{ "class": "sidebar_container", "settings" : ["gnwidg1"], "layer3.tint": [238, 180, 24] },
 	{ "class": "sidebar_container", "settings" : ["gnc_001", "gnwidg1"], "layer1.tint": [255, 51, 119] },
 	{ "class": "sidebar_container", "settings" : ["gnc_001", "gnwidg1"], "layer2.tint": [255, 51, 119] },
 	{ "class": "sidebar_container", "settings" : ["gnc_001", "gnwidg1"], "layer3.tint": [255, 51, 119] },
@@ -274,7 +274,7 @@
 	{
 		"class": "tree_row",
 		"layer1.texture": "Guna/assets/simple/sidebar/tree-highlight-1p.png",
-		"layer1.tint": [246, 195, 58],
+		"layer1.tint": [238, 180, 24],
 		"layer1.inner_margin": [15, 0, 12, 0],
 		"layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
 	},
@@ -354,7 +354,7 @@
 		"layer1.opacity": 1,
 
 		"layer2.texture": "Guna/assets/simple/sidebar/folder/folder-open.png",
-		"layer2.tint": [246, 195, 58],
+		"layer2.tint": [238, 180, 24],
 		"layer2.opacity": 0
 	},
 	{
@@ -366,7 +366,7 @@
 	{
 		"class": "icon_folder",
 		"parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-		"layer1.tint": [246, 195, 58]
+		"layer1.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_folder",
@@ -396,7 +396,7 @@
 	{
 		"class": "icon_folder",
 		"parents": [{ "class": "tree_row", "attributes": ["selected"] }],
-		"layer1.tint": [246, 195, 58]
+		"layer1.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_folder_loading",
@@ -413,7 +413,7 @@
 			"loop": true,
 			"frame_time": 0.08
 		},
-		"layer1.tint": [246, 195, 58],
+		"layer1.tint": [238, 180, 24],
 		"layer0.opacity": 0,
 		"content_margin": [8, 8]
 	},
@@ -431,12 +431,12 @@
 	{
 		"class": "icon_folder_dup",
 		"parents": [{ "class": "tree_row", "attributes": ["hover"]}],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_folder_dup",
 		"parents": [{"class": "tree_row", "attributes": ["expanded"] }],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "disclosure_button_control",
@@ -520,7 +520,7 @@
 		"layer2.opacity": 1,
 		"layer3.texture": "Guna/assets/simple/tab/tab-sel2.png",
 		"layer3.inner_margin": [8, 0, 12, 0],
-		"layer3.tint": [246, 195, 58],
+		"layer3.tint": [238, 180, 24],
 		"layer3.opacity": 1,
 	},
 	{
@@ -557,7 +557,7 @@
 	{
 		"class": "tab_label",
 		"parents": [{"class": "tab_control", "attributes": ["hover"]}],
-		"fg": [246, 195, 58]
+		"fg": [238, 180, 24]
 	},
 	{
 		"class": "tab_label",
@@ -575,7 +575,7 @@
 	{
 		"class": "tab_close_button",
 		"attributes": ["hover"],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "tab_close_button",
@@ -586,7 +586,7 @@
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control", "attributes": ["selected"]}],
 		"attributes": ["hover"],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "tab_close_button",
@@ -597,7 +597,7 @@
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 		"attributes": ["hover"],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "tab_close_button",
@@ -608,7 +608,7 @@
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
 		"attributes": ["hover"],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "tab_close_button",
@@ -766,7 +766,7 @@
 	{
 		"class": "icon_regex",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_regex",
@@ -783,7 +783,7 @@
 	{
 		"class": "icon_case",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_case",
@@ -800,7 +800,7 @@
 	{
 		"class": "icon_whole_word",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_whole_word",
@@ -817,7 +817,7 @@
 	{
 		"class": "icon_wrap",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_wrap",
@@ -834,7 +834,7 @@
 	{
 		"class": "icon_in_selection",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_in_selection",
@@ -851,7 +851,7 @@
 	{
 		"class": "icon_highlight",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_highlight",
@@ -868,7 +868,7 @@
 	{
 		"class": "icon_preserve_case",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_preserve_case",
@@ -885,7 +885,7 @@
 	{
 		"class": "icon_context",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_context",
@@ -902,7 +902,7 @@
 	{
 		"class": "icon_use_buffer",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_use_buffer",
@@ -919,7 +919,7 @@
 	{
 		"class": "icon_reverse",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "icon_reverse",
@@ -1131,7 +1131,7 @@
 	{
 		"class": "fold_button_control",
 		"attributes": ["hover"],
-		"layer0.tint": [246, 195, 58]
+		"layer0.tint": [238, 180, 24]
 	},
 	{
 		"class": "fold_button_control",
@@ -1197,7 +1197,7 @@
 	},
 	{
 		"class": "progress_gauge_control",
-		"layer0.tint": [246, 195, 58],
+		"layer0.tint": [238, 180, 24],
 		"layer0.opacity": 1,
 		"content_margin": [0, 6]
 	},
