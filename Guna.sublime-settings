@@ -15,6 +15,9 @@
 	// Automatically show/hide scroll bars (Windows/Linux)
 	"overlay_scroll_bars": true,
 
+	// Scroll-bars Type
+	"scroll_bars_convex": false,
+
 	// Use selected box in sidebar
 	"sidebar_selected_box": true,
 
