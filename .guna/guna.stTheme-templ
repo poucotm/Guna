@@ -26,9 +26,9 @@
 				<key>lineHighlight</key>
 				<string>#283240</string>
 				<key>selection</key>
-				<string>#base-color+3i</string>
+				<string>#base-color+5i</string>
 				<key>selectionBorder</key>
-				<string>#base-color+3i</string>
+				<string>#base-color+5i</string>
 			</dict>
 		</dict>
 		<dict>
