@@ -357,6 +357,18 @@
 				<string>#EBBC8D</string>
 			</dict>
 		</dict>
+		<!-- JSON -->
+		<dict>
+			<key>name</key>
+			<string>JSON</string>
+			<key>scope</key>
+			<string>source.json.sublime.settings meta.settings-mapping.sublime-settings meta.mapping.key.json string.quoted.double.json entity.name.other.key.sublime-settings, source.json.sublime.settings meta.settings-mapping.sublime-settings meta.setting-value.sublime-settings meta.mapping.value.json meta.mapping.key.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EBBC8D</string>
+			</dict>
+		</dict>
 		<!-- HTML -->
 		<dict>
 			<key>name</key>
