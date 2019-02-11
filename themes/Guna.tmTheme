@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>author</key>
@@ -50,50 +50,50 @@
 			</dict>
 		</dict>
 		<dict>
-				<key>name</key>
-				<string>Comment</string>
-				<key>scope</key>
-				<string>comment, punctuation.definition.comment</string>
-				<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>italic</string>
-					<key>foreground</key>
-					<string>#677A83</string>
-				</dict>
-		</dict>
-		<dict>
-				<key>name</key>
-				<string>String</string>
-				<key>scope</key>
-				<string>string, string.quoted keyword.other</string>
-				<key>settings</key>
-				<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment, punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-					<string>#FFEE99</string>
-				</dict>
+				<string>#677A83</string>
+			</dict>
 		</dict>
 		<dict>
-				<key>name</key>
-				<string>Number</string>
-				<key>scope</key>
-				<string>constant.numeric, constant.language</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#009FBF</string>
-				</dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string, string.quoted keyword.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFEE99</string>
+			</dict>
 		</dict>
 		<dict>
-				<key>name</key>
-				<string>User-defined constant</string>
-				<key>scope</key>
-				<string>constant.character, constant.other</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#009FBF</string>
-				</dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric, constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009FBF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>User-defined constant</string>
+			<key>scope</key>
+			<string>constant.character, constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009FBF</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -102,8 +102,8 @@
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
-					<key>foreground</key>
-					<string>#D9D9D9</string>
+				<key>foreground</key>
+				<string>#D9D9D9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -113,8 +113,8 @@
 			<string>variable.function</string>
 			<key>settings</key>
 			<dict>
-					<key>foreground</key>
-					<string>#FF3377</string>
+				<key>foreground</key>
+				<string>#FF3377</string>
 			</dict>
 		</dict>
 		<dict>
@@ -124,8 +124,8 @@
 			<string>entity.name.section</string>
 			<key>settings</key>
 			<dict>
-					<key>foreground</key>
-					<string>#90D982</string>
+				<key>foreground</key>
+				<string>#90D982</string>
 			</dict>
 		</dict>
 		<dict>
@@ -135,20 +135,20 @@
 			<string>meta.method.parameters</string>
 			<key>settings</key>
 			<dict>
-					<key>foreground</key>
-					<string>#D9D9D9</string>
+				<key>foreground</key>
+				<string>#D9D9D9</string>
 			</dict>
 		</dict>
 		<dict>
-				<key>name</key>
-				<string>Keyword</string>
-				<key>scope</key>
-				<string>keyword</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#FA9028</string>
-				</dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FA9028</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -164,30 +164,30 @@
 			</dict>
 		</dict>
 		<dict>
-				<key>name</key>
-				<string>Storage type</string>
-				<key>scope</key>
-				<string>storage.type</string>
-				<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>italic</string>
-					<key>foreground</key>
-					<string>#EBBC8D</string>
-				</dict>
+			<key>name</key>
+			<string>Storage type</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#EBBC8D</string>
+			</dict>
 		</dict>
 		<dict>
-				<key>name</key>
-				<string>Storage type</string>
-				<key>scope</key>
-				<string>storage.modifier</string>
-				<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>italic</string>
-					<key>foreground</key>
-					<string>#EBDB8D</string>
-				</dict>
+			<key>name</key>
+			<string>Storage type</string>
+			<key>scope</key>
+			<string>storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#EBDB8D</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -345,7 +345,6 @@
 				<string>#90D982</string>
 			</dict>
 		</dict>
-		<!-- JSON -->
 		<dict>
 			<key>name</key>
 			<string>JSON</string>
@@ -357,7 +356,6 @@
 				<string>#EBBC8D</string>
 			</dict>
 		</dict>
-		<!-- JSON -->
 		<dict>
 			<key>name</key>
 			<string>JSON</string>
@@ -369,7 +367,6 @@
 				<string>#EBBC8D</string>
 			</dict>
 		</dict>
-		<!-- HTML -->
 		<dict>
 			<key>name</key>
 			<string>Html punctuations tags</string>
@@ -381,7 +378,6 @@
 				<string>#EBBC8D88</string>
 			</dict>
 		</dict>
-		<!-- Markdown -->
 		<dict>
 			<key>name</key>
 			<string>Markup definition</string>
@@ -389,8 +385,8 @@
 			<string>punctuation.definition.heading</string>
 			<key>settings</key>
 			<dict>
-					<key>foreground</key>
-					<string>#FA9028</string>
+				<key>foreground</key>
+				<string>#FA9028</string>
 			</dict>
 		</dict>
 		<dict>
@@ -400,8 +396,8 @@
 			<string>string.other.link</string>
 			<key>settings</key>
 			<dict>
-					<key>foreground</key>
-					<string>#EBBC8D</string>
+				<key>foreground</key>
+				<string>#EBBC8D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -411,8 +407,8 @@
 			<string>markup.underline.link</string>
 			<key>settings</key>
 			<dict>
-					<key>foreground</key>
-					<string>#00B5D9</string>
+				<key>foreground</key>
+				<string>#00B5D9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -422,8 +418,8 @@
 			<string>meta.paragraph.list</string>
 			<key>settings</key>
 			<dict>
-					<key>foreground</key>
-					<string>#EBDB8D</string>
+				<key>foreground</key>
+				<string>#EBDB8D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -452,7 +448,6 @@
 				<string>#FA9028</string>
 			</dict>
 		</dict>
-		<!-- diff -->
 		<dict>
 			<key>name</key>
 			<string>diff.header</string>
@@ -497,7 +492,6 @@
 				<string>#FF3377</string>
 			</dict>
 		</dict>
-		<!-- specific -->
 		<dict>
 			<key>name</key>
 			<string>Decorator</string>
@@ -557,8 +551,8 @@
 			<string>source.systemverilog entity.name.section</string>
 			<key>settings</key>
 			<dict>
-					<key>foreground</key>
-					<string>#77B36B</string>
+				<key>foreground</key>
+				<string>#77B36B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -568,11 +562,10 @@
 			<string>source.verilog entity.name.section</string>
 			<key>settings</key>
 			<dict>
-					<key>foreground</key>
-					<string>#77B36B</string>
+				<key>foreground</key>
+				<string>#77B36B</string>
 			</dict>
 		</dict>
-		<!-- Sublimelinter 3 -->
 		<dict>
 			<key>name</key>
 			<string>SublimeLinter Error</string>
@@ -606,7 +599,6 @@
 				<string>#DDB700</string>
 			</dict>
 		</dict>
-		<!-- Sublimelinter 4 -->
 		<dict>
 			<key>name</key>
 			<string>SublimeLinter Error</string>
@@ -627,6 +619,237 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FFEE99</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#000000</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_969696FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#969696FF</string>
+				<key>foreground</key>
+				<string>#161616FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_297080FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#297080FF</string>
+				<key>foreground</key>
+				<string>#DCDCDCFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_AB3377FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#AB3377FF</string>
+				<key>foreground</key>
+				<string>#DEDEDEFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_677F83FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#677F83FF</string>
+				<key>foreground</key>
+				<string>#F8F8F8FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_FF1919FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF1919FF</string>
+				<key>foreground</key>
+				<string>#DDDDDDFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_F6C33AFF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#F6C33AFF</string>
+				<key>foreground</key>
+				<string>#424242FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_A6988DFF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#A6988DFF</string>
+				<key>foreground</key>
+				<string>#1A1A1AFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_F92672FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#F92672FF</string>
+				<key>foreground</key>
+				<string>#EDEDEDFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_FF5500FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF5500FF</string>
+				<key>foreground</key>
+				<string>#FEFEFEFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_6DA363FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#6DA363FF</string>
+				<key>foreground</key>
+				<string>#0B0B0BFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_FFFFFFFF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFFFF</string>
+				<key>foreground</key>
+				<string>#7F7F7FFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_FFCC99FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFCC99FF</string>
+				<key>foreground</key>
+				<string>#555555FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_677A83FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#677A83FF</string>
+				<key>foreground</key>
+				<string>#F5F5F5FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_151B22FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#151B22FF</string>
+				<key>foreground</key>
+				<string>#9A9A9AFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_FF3377FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF3377FF</string>
+				<key>foreground</key>
+				<string>#F7F7F7FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_0095B3FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#0095B3FF</string>
+				<key>foreground</key>
+				<string>#EBEBEBFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_B4B4B4FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#B4B4B4FF</string>
+				<key>foreground</key>
+				<string>#343434FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_AAFF9AFF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#AAFF9AFF</string>
+				<key>foreground</key>
+				<string>#5A5A5AFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_333333FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#333333FF</string>
+				<key>foreground</key>
+				<string>#B3B3B3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_000000FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#000000FF</string>
+				<key>foreground</key>
+				<string>#808080FF</string>
 			</dict>
 		</dict>
 	</array>
