@@ -10,13 +10,13 @@
 	"hide_tab_close": false,
 
 	// Hide tab dropdown button
-	"hide_tab_dropdown": false,
+	"hide_tab_dropdown": true,
 
 	// Automatically show/hide scroll bars (Windows/Linux)
 	"overlay_scroll_bars": true,
 
 	// Scroll-bars Type
-	"scroll_bars_convex": false,
+	"scroll_bars_convex": true,
 
 	// Use selected box in sidebar
 	"sidebar_selected_box": true,
@@ -29,7 +29,7 @@
 	"weather": {
 		"appid": "",      // - http://openweathermap.org/appid
 		"city_name": "",  // - city name, country code e.g) seoul,KR
-		"proxy": ""       // - http proxy e.g) 10.75.97.11:8080
+		"proxy": ""       // - http proxy e.g) 10.75.97.11:8080 - if needed
 	},
 
 	/*  Theme Tweak  ______________________________________________
