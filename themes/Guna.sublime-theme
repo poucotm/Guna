@@ -1121,6 +1121,7 @@
 	{
 		"class": "puck_control",
 		"parents": [{"class": "sidebar_container"}],
+		"attributes": ["horizontal"],
 		"settings": ["gn_sb_cnvx"],
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-h.png",
 		"content_margin": [24, 6]
