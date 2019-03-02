@@ -272,6 +272,11 @@
 		"font.size": 14
 	},
 	{
+		"class": "sidebar_heading",
+		"settings": ["gn_sidebar_head"],
+		"color": [217, 215, 206],
+	},
+	{
 		"class": "tree_row",
 		"layer1.texture": "Guna/assets/simple/sidebar/tree-highlight-1p.png",
 		"layer1.tint": [246, 195, 58],

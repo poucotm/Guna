@@ -26,6 +26,7 @@
 	// Select sidebar font
 	"sidebar_font.color": "#ABB0B6",
 	"sidebar_font.color.selected": "#ED9366",
+	"sidebar_head.color": "#ED9366",
 
 	// Select status bar font
 	"status_bar_font.color": "#0095B3",

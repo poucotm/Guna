@@ -21,6 +21,9 @@
 	// Use selected box in sidebar
 	"sidebar_selected_box": true,
 
+	// Show/Hide sidebar heading
+	"sidebar_head": false,
+
 	/*  Weather : openweathermap.org  _____________________________
 	   - You have to get an APPID to get weather information
 	   - fill one of city name
@@ -77,6 +80,7 @@
 	"sidebar_font.size": 12,
 	"sidebar_font.color": "#677A83",
 	"sidebar_font.color.selected": "#D9D7CE",
+	"sidebar_head.color": "#D9D7CE",
 
 	// Select status bar font
 	"status_bar_font.face": "Roboto Condensed",
