@@ -225,6 +225,9 @@
 	{ "class": "sidebar_container", "settings" : ["gni_001", "gnwidg1"], "layer1.tint": #clock-color-alert },
 	{ "class": "sidebar_container", "settings" : ["gni_001", "gnwidg1"], "layer2.tint": #clock-color-alert },
 	{ "class": "sidebar_container", "settings" : ["gni_001", "gnwidg1"], "layer3.tint": #clock-color-alert },
+	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg1"], "layer1.tint": #clock-color-info },
+	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg1"], "layer2.tint": #clock-color-info },
+	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg1"], "layer3.tint": #clock-color-info },
 
 	{ "class": "sidebar_container", "layer1.inner_margin": [120, 35, 0, 0], "settings" : ["gnw_001", "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w001.png", "layer1.opacity": 1 },
 	{ "class": "sidebar_container", "layer1.inner_margin": [120, 35, 0, 0], "settings" : ["gnw_002", "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w002.png", "layer1.opacity": 1 },
@@ -679,6 +682,12 @@
 		"parents": [{"class": "status_bar"}],
 		"settings": ["gni_002"],
 		"color": #clock-color-alert
+	},
+	{
+		"class": "label_control",
+		"parents": [{"class": "status_bar"}],
+		"settings": ["gni_005"],
+		"color": #clock-color-info
 	},
 	{
 		"class": "status_bar",
