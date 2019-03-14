@@ -7,6 +7,7 @@
 	"clock.color.dirty": "#FF1919",
 	"clock.color.readonly": "#4b4b4b",
 	"clock.color.alert": "#FF1919",
+	"clock.color.info": "#25AA25",
 
 	// Icon
 	"icon.color": "#ABB0B6",
