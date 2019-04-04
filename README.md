@@ -32,7 +32,7 @@ __Weather__ : The weather widget is added (from v1.4.0). The widget uses [https:
 
 __Manual__ mode : you can tweak fonts / colors as you want by changing [__Guna.sublime-settings__][L6]. After changing, run __*Guna : Tweak Theme*__ in __*command palette*__ (*cmd/ctrl+shift+p*) to apply your settings.
 
-__Adaptive__ mode : Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color- schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once for the input panel change.
+__Adaptive__ mode : Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color- schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once for the input panel change. In order to change font face or size in adaptive mode, simply restart sublime text after changing values in settings.
 
 __*Adaptive Mode Testing Shot*__
 
