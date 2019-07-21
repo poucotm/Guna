@@ -66,7 +66,7 @@
 	// Select tab font
 	"tab_font.face": "Dejavu Sans",
 	"tab_font.bold": false,
-	"tab_font.size": 12,
+	"tab_font.size": 13,
 	"tab_font.color": "#677A83",
 	"tab_font.color.selected": "#FFFFFF",
 	"tab_font.color.hover": "#F6C33A",
@@ -79,7 +79,7 @@
 
 	// Select sidebar font
 	"sidebar_font.face": "Dejavu Sans",
-	"sidebar_font.size": 12,
+	"sidebar_font.size": 13,
 	"sidebar_font.color": "#677A83",
 	"sidebar_font.color.selected": "#D9D7CE",
 	"sidebar_head.color": "#D9D7CE",
