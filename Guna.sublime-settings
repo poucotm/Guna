@@ -33,6 +33,7 @@
 	"weather": {
 		"appid": "",      // - http://openweathermap.org/appid
 		"city_name": "",  // - city name, country code e.g) seoul,KR
+		"geographic": {}, // - geographic coordinate (alternative) e.g) {"lat":35, "lon":139}
 		"proxy": ""       // - http proxy e.g) 10.75.97.11:8080 - if needed
 	},
 
