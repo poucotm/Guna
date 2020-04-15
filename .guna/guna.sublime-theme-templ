@@ -780,6 +780,10 @@
 		"layer2.inner_margin": [6, 1, 2, 1],
 		"layer2.tint": #base-color+1,
 		"layer2.opacity": 1,
+		"layer3.texture": "Guna/assets/simple/widget/widget-bg2.png",
+		"layer3.inner_margin": [6, 1, 2, 1],
+		"layer3.tint": #base-color+3i,
+		"layer3.opacity": 1,
 		"content_margin": [5, 0, 0, 5]
 	},
 	{
