@@ -730,6 +730,23 @@
 		"layer0.tint": [150, 20, 5],
 	},
 	{
+		"class": "sidebar_button_control",
+		"content_margin": [12, 8],
+		"layer0.texture": "Guna/assets/simple/status-bar/switch-panel.png",
+		"layer0.tint": [71, 86, 102],
+		"layer0.opacity": 1
+	},
+	{
+		"class": "sidebar_button_control",
+		"attributes": ["hover"],
+		"layer0.tint": [217, 217, 217]
+	},
+	{
+		"class": "sidebar_button_control",
+		"attributes": ["pressed"],
+		"layer0.tint": [255, 85, 0]
+	},
+	{
 		"class": "panel_button_control",
 		"content_margin": [12, 8],
 		"layer0.texture": "Guna/assets/simple/status-bar/switch-panel.png",
