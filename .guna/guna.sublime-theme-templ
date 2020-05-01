@@ -746,6 +746,24 @@
 		"attributes": ["pressed"],
 		"layer0.tint": #icon-color-pressed
 	},
+
+	{
+		"class": "sidebar_button_control",
+		"content_margin": [12, 8],
+		"layer0.texture": "Guna/assets/simple/status-bar/switch-panel.png",
+		"layer0.tint": #icon-color,
+		"layer0.opacity": 1
+	},
+	{
+		"class": "sidebar_button_control",
+		"attributes": ["hover"],
+		"layer0.tint": #icon-color-hover
+	},
+	{
+		"class": "sidebar_button_control",
+		"attributes": ["pressed"],
+		"layer0.tint": #icon-color-pressed
+	},
 	{
 		"class": "status_button",
 		"min_size": [80, 0],

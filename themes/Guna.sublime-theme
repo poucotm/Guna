@@ -297,7 +297,7 @@
 		"color": [22, 28, 35],
 		"font.face": "Dejavu Sans",
 		"font.bold": false,
-		"font.size": 14
+		"font.size": 15
 	},
 	{
 		"class": "sidebar_heading",
@@ -326,7 +326,7 @@
 		"class": "sidebar_label",
 		"color": [103, 122, 131],
 		"font.face": "Dejavu Sans",
-		"font.size": 12
+		"font.size": 13
 	},
 	{
 		"class": "sidebar_label",
@@ -743,6 +743,24 @@
 	},
 	{
 		"class": "panel_button_control",
+		"attributes": ["pressed"],
+		"layer0.tint": [255, 85, 0]
+	},
+
+	{
+		"class": "sidebar_button_control",
+		"content_margin": [12, 8],
+		"layer0.texture": "Guna/assets/simple/status-bar/switch-panel.png",
+		"layer0.tint": [71, 86, 102],
+		"layer0.opacity": 1
+	},
+	{
+		"class": "sidebar_button_control",
+		"attributes": ["hover"],
+		"layer0.tint": [217, 217, 217]
+	},
+	{
+		"class": "sidebar_button_control",
 		"attributes": ["pressed"],
 		"layer0.tint": [255, 85, 0]
 	},
