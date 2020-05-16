@@ -26,8 +26,24 @@
 								"args": {
 									"base_file": "${packages}/Guna/Guna.sublime-settings",
 									"default": "// Specify your own settings. You don't need to restart\n{\n\n}\n"
-								}
-							}
+								},
+							},
+							{
+								"caption": "Dark theme settings",
+								"command": "edit_settings",
+								"args": {
+									"base_file": "${packages}/Guna/themes/preset/Guna-dark.sublime-settings",
+									"default": "// Specify your own settings. You don't need to restart\n{\n\n}\n"
+								},
+							},
+							{
+								"caption": "Light theme settings",
+								"command": "edit_settings",
+								"args": {
+									"base_file": "${packages}/Guna/themes/preset/Guna-light.sublime-settings",
+									"default": "// Specify your own settings. You don't need to restart\n{\n\n}\n"
+								},
+							},
 						]
 					}
 				]

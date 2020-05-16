@@ -11,7 +11,7 @@ Simply, run __*Guna*__ in __*command palette*__ (*cmd/ctrl+shift+p*). In case th
 
 ### Fonts
 
-Guna uses [__Dejavu Sans__][L1] as default font for UI and [Roboto Condensed][L2] is used only for status bar. But you can change them in the theme-tweak settings as you want. The editor font is [Meslo][L5] in screenshots above. For __Sublime Text 3 (3143)__ on Windows, in order to apply *Roboto Condensed*, you may have to add __*"theme_font_options": "gdi"*__ in Preference.sublime-settings.
+Guna uses [__Dejavu Sans__][L1] as default font for UI and [Roboto Condensed][L2] is used only for status bar. But you can change them in the theme-tweak settings as you want. The editor font is [Meslo][L5] in screenshots above.
 
 ### Widgets
 
@@ -28,13 +28,11 @@ __Weather__ : The weather widget is added (from v1.4.0). The widget uses [https:
 
 
 
-### Tweak Theme
+### Adaptive Theme
 
-__Manual__ mode : you can tweak fonts / colors as you want by changing [__Guna.sublime-settings__][L6]. After changing, run __*Guna : Tweak Theme*__ in __*command palette*__ (*cmd/ctrl+shift+p*) to apply your settings.
+Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color-schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once only for the input panel's background change. In order to override colors and font faces, use __*Preferences > Package Settings > Guna > Dark (Light) theme settings*__.
 
-__Adaptive__ mode : Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color- schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once for the input panel change. In order to change font face or size in adaptive mode, simply restart sublime text after changing values in [__Guna.sublime-settings__][L6].
-
-__*Adaptive Mode Testing Shot*__
+__*Adaptive Theme Testing Shot*__
 
 [![Image of Guna][S5]][S5]
 

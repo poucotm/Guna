@@ -34,70 +34,18 @@
 		"appid": "",      // - http://openweathermap.org/appid
 		"city_name": "",  // - city name, country code e.g) seoul,KR
 		"geographic": {}, // - geographic coordinate (alternative) e.g) {"lat":35, "lon":139}
-		"proxy": ""       // - http proxy e.g) 10.75.97.11:8080 - if needed
+		"proxy": "",      // - http proxy e.g) 10.75.97.11:8080 - if needed
 	},
 
 	/*  Theme Tweak  ______________________________________________
-		- "adaptive" mode : automatically changes colors based on
-			the color scheme you selected
-		- "manual" mode : change colors as the following settings.
-			Then Run `Guna : Tweak Theme` to apply settings.
-		- You need to restart once for the input panel
+		- "tweak_mode" : "adaptive", or "manual"
+		  -> "manual" mode is deprecated (from v1.8.0)
+		  -> To override colors or font faces, use "Preferences > Package Settings > Guna > Dark (Light) theme settings"
+		     Only the input panel background color will be applied when restart once
 	*/
 
-	// Mode - ("adaptive", "manual")
-	"tweak_mode": "adaptive",
-
-	// Set background color
-	"base-color": "#161C23", // use "#131B1F" when too bluish
-
-	// Clock
-	"clock.color": "#F6C33A",
-	"clock.color.dirty": "#FF3377",
-	"clock.color.readonly": "#B4B4B4",
-	"clock.color.alert": "#FF1919",
-	"clock.color.info": "#19FFFF",
-
-	// Icon
-	"icon.color": "#475666",
-	"icon.color.selected": "#F6C33A",
-	"icon.color.pressed": "#FF5500",
-	"icon.color.hover": "#D9D9D9",
-
-	// Select tab font
-	"tab_font.face": "Dejavu Sans",
-	"tab_font.bold": false,
-	"tab_font.size": 13,
-	"tab_font.color": "#677A83",
-	"tab_font.color.selected": "#FFFFFF",
-	"tab_font.color.hover": "#F6C33A",
-	"tab_font.color.dirty": "#FF3377",
-
-	// Select label font
-	"label_font.face": "Dejavu Sans",
-	"label_font.size": 12,
-	"label_font.color": "#B3AA59",
-
-	// Select sidebar font
-	"sidebar_font.face": "Dejavu Sans",
-	"sidebar_font.size": 13,
-	"sidebar_font.color": "#677A83",
-	"sidebar_font.color.selected": "#D9D7CE",
-	"sidebar_head.color": "#D9D7CE",
-
-	// Select status bar font
-	"status_bar_font.face": "Roboto Condensed",
-	"status_bar_font.size": 12,
-	"status_bar_font.color": "#0095B3",
-
-	// Panel, Widget
-	"panel_font.color": "#A6988D",
-	"panel_font.color.selected": "#FFCC99",
-	"panel_font.color.match": "#6DA363",
-	"panel_font.color.match.selected": "#AAFF9A",
-
-	// Scroll bar
-	"scroll_bars.color": "#297080",
+	// Only for Guna Color Scheme
+	"guna_bgcolor": "#161C23", // use "#131B1F" when too bluish
 
 	/*  etc.  _____________________________________________________
 	*/

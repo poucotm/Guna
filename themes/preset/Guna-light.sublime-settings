@@ -1,7 +1,4 @@
 {
-	// Set background color
-	"base-color": "#FFFFFF",
-
 	// Clock
 	"clock.color": "#ED9366",
 	"clock.color.dirty": "#FF1919",
@@ -16,20 +13,29 @@
 	"icon.color.hover": "#0095B3",
 
 	// Select tab font
+	"tab_font.face": "Dejavu Sans",
+	"tab_font.bold": false,
+	"tab_font.size": 13,
 	"tab_font.color": "#ABB0B6",
 	"tab_font.color.selected": "#6E7580",
 	"tab_font.color.hover": "#ED9366",
 	"tab_font.color.dirty": "#FF1919",
 
 	// Select label font
+	"label_font.face": "Dejavu Sans",
+	"label_font.size": 12,
 	"label_font.color": "#B3AA59",
 
 	// Select sidebar font
+	"sidebar_font.face": "Dejavu Sans",
+	"sidebar_font.size": 13,
 	"sidebar_font.color": "#ABB0B6",
 	"sidebar_font.color.selected": "#ED9366",
 	"sidebar_head.color": "#ED9366",
 
 	// Select status bar font
+	"status_bar_font.face": "Roboto Condensed",
+	"status_bar_font.size": 12,
 	"status_bar_font.color": "#0095B3",
 
 	// Panel, Widget

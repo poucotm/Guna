@@ -2,9 +2,5 @@
 	{
 		"caption": "Guna",
 		"command": "guna_set_theme"
-	},
-	{
-		"caption": "Guna : Tweak Theme",
-		"command": "guna_tweak_theme"
-	},
+	}
 ]
