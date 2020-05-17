@@ -1,4 +1,7 @@
 {
+	// Scale
+	"scale": 1,
+
 	// Clock
 	"clock.color": "#ED9366",
 	"clock.color.dirty": "#FF1919",

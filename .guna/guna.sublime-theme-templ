@@ -31,7 +31,7 @@
 
 	{
 		"class": "button_control",
-		"content_margin": [15, 10, 15, 10],
+		"content_margin": #scale4-0123 [15, 10, 15, 10],
 		"min_size": [70, 0],
 		"layer0.texture": "Guna/assets/simple/widget/btn-border.png",
 		"layer0.inner_margin": [10, 8],
@@ -72,7 +72,7 @@
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [10, 8],
 		"layer0.tint": #base-color+2i,
-		"content_margin": [10, 6, 10, 6]
+		"content_margin": #scale4-123 [10, 6, 10, 6]
 	},
 	{
 		"class": "text_line_control",
@@ -132,11 +132,11 @@
 		"layer1.opacity": 1,
 		"layer1.tint": #clock-color,
 		"layer1.inner_margin": [32, 32, 0, 0],
-		"content_margin": [40, 4, 10, 4]
+		"content_margin": #scale4-0123 [40, 4, 10, 4]
 	},
 	{
 		"class": "dropdown_button_control",
-		"content_margin": [8, 8],
+		"content_margin": #scale2-01 [8, 8],
 		"layer0.texture": "Guna/assets/simple/widget/button/dropdown.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1
@@ -365,7 +365,7 @@
 		"class": "icon_file_type",
 		"layer0.opacity": 0.75,
 		"layer0.inner_margin": [0, 2, 0, -2],
-		"content_margin": [8, 8]
+		"content_margin": #scale2-01 [8, 8]
 	},
 	{
 		"class": "icon_file_type",
@@ -379,7 +379,7 @@
 	},
 	{
 		"class": "icon_folder",
-		"content_margin": [8, 8],
+		"content_margin": #scale2-01 [8, 8],
 		"layer0.tint": #base-color,
 		"layer0.opacity": 0,
 		"layer1.texture": "Guna/assets/simple/sidebar/folder/folder.png",
@@ -448,7 +448,7 @@
 		},
 		"layer1.tint": #icon-color-selected,
 		"layer0.opacity": 0,
-		"content_margin": [8, 8]
+		"content_margin": #scale2-01 [8, 8]
 	},
 	{
 		"class": "icon_folder_dup",
@@ -505,7 +505,7 @@
 		"tab_overlap": 0,
 		"tab_width": 120,
 		"tab_min_width": 120,
-		"tab_height": 55,
+		"tab_height": #scale1 55,
 		"mouse_wheel_switch": false,
 		"layer0.tint": #base-color-1,
 		"layer0.opacity": 1,
@@ -599,8 +599,7 @@
 	},
 	{
 		"class": "tab_close_button",
-		"content_margin": [8, 8],
-		"content_margin": [8, 8],
+		"content_margin": #scale2-01 [8, 8],
 		"layer0.texture": "Guna/assets/simple/tab/tab-close.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1
@@ -669,7 +668,7 @@
 	},
 	{
 		"class": "show_tabs_dropdown_button",
-		"content_margin": [8, 8, 16, 8],
+		"content_margin": #scale4-0123 [8, 8, 16, 8],
 		"layer0.texture": "Guna/assets/simple/tab/tab-dropdown.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1
@@ -731,7 +730,7 @@
 	},
 	{
 		"class": "panel_button_control",
-		"content_margin": [12, 8],
+		"content_margin": #scale2-01 [12, 8],
 		"layer0.texture": "Guna/assets/simple/status-bar/switch-panel.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1
@@ -822,7 +821,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/regex.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": #scale2-01 [10, 10]
 	},
 	{
 		"class": "icon_regex",
@@ -839,7 +838,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/matchcase.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": #scale2-01 [10, 10]
 	},
 	{
 		"class": "icon_case",
@@ -856,7 +855,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/word.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": #scale2-01 [10, 10]
 	},
 	{
 		"class": "icon_whole_word",
@@ -873,7 +872,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/wrap.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": #scale2-01 [10, 10]
 	},
 	{
 		"class": "icon_wrap",
@@ -890,7 +889,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/inselection.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": #scale2-01 [10, 10]
 	},
 	{
 		"class": "icon_in_selection",
@@ -907,7 +906,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/highlight.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": #scale2-01 [10, 10]
 	},
 	{
 		"class": "icon_highlight",
@@ -924,7 +923,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/replace-preserve-case.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": #scale2-01 [10, 10]
 	},
 	{
 		"class": "icon_preserve_case",
@@ -941,7 +940,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/context.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": #scale2-01 [10, 10]
 	},
 	{
 		"class": "icon_context",
@@ -958,7 +957,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/buffer.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": #scale2-01 [10, 10]
 	},
 	{
 		"class": "icon_use_buffer",
@@ -975,7 +974,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/reverse.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": #scale2-01 [10, 10]
 	},
 	{
 		"class": "icon_reverse",
