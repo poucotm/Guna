@@ -600,7 +600,6 @@
 	{
 		"class": "tab_close_button",
 		"content_margin": [8, 8],
-		"content_margin": [8, 8],
 		"layer0.texture": "Guna/assets/simple/tab/tab-close.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1
@@ -1057,7 +1056,9 @@
 		"fg": [166, 152, 141],
 		"match_fg": [109, 163, 99],
 		"selected_fg": [255, 204, 153],
-		"selected_match_fg": [170, 255, 154]
+		"selected_match_fg": [170, 255, 154],
+		"font.face": "Segoe UI",
+		"font.size": 14
 	},
 	{
 		"class": "quick_panel_label",
@@ -1065,19 +1066,25 @@
 		"fg": [166, 152, 141],
 		"match_fg": [109, 163, 99],
 		"selected_fg": [255, 204, 153],
-		"selected_match_fg": [170, 255, 154]
+		"selected_match_fg": [170, 255, 154],
+		"font.face": "Segoe UI",
+		"font.size": 14
 	},
 	{
 		"class": "quick_panel_path_label",
 		"fg": [140, 140, 140],
 		"match_fg": [109, 163, 99],
 		"selected_fg": [225, 225, 225],
-		"selected_match_fg": [170, 255, 154]
+		"selected_match_fg": [170, 255, 154],
+		"font.face": "Segoe UI",
+		"font.size": 12
 	},
 	{
 		"class": "quick_panel_score_label",
 		"fg": [140, 140, 140],
-		"selected_fg": [170, 255, 154]
+		"selected_fg": [170, 255, 154],
+		"font.face": "Segoe UI",
+		"font.size": 14
 	},
 
 	{

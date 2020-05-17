@@ -42,6 +42,8 @@
 	"status_bar_font.color": "#0095B3",
 
 	// Panel, Widget
+	"panel_font.face": "Segoe UI",
+	"panel_font.size": 14,
 	"panel_font.color": "#A6988D",
 	"panel_font.color.selected": "#FFCC99",
 	"panel_font.color.match": "#6DA363",
