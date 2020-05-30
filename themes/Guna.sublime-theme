@@ -31,7 +31,7 @@
 
 	{
 		"class": "button_control",
-		"content_margin": [15, 10, 15, 10],
+		"content_margin": [19, 13, 19, 13],
 		"min_size": [70, 0],
 		"layer0.texture": "Guna/assets/simple/widget/btn-border.png",
 		"layer0.inner_margin": [10, 8],
@@ -72,7 +72,7 @@
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [10, 8],
 		"layer0.tint": [28, 35, 44],
-		"content_margin": [10, 6, 10, 6]
+		"content_margin": [10, 7, 13, 7]
 	},
 	{
 		"class": "text_line_control",
@@ -132,11 +132,11 @@
 		"layer1.opacity": 1,
 		"layer1.tint": [255, 204, 103],
 		"layer1.inner_margin": [32, 32, 0, 0],
-		"content_margin": [40, 4, 10, 4]
+		"content_margin": [53, 5, 13, 5]
 	},
 	{
 		"class": "dropdown_button_control",
-		"content_margin": [8, 8],
+		"content_margin": [10, 10],
 		"layer0.texture": "Guna/assets/simple/widget/button/dropdown.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1
@@ -154,8 +154,8 @@
 
 	{
 		"class": "sidebar_container",
-		"layer0.texture": "Guna/assets/simple/sidebar/sidebar-bg-clock.png",
-		"layer0.inner_margin": [15, 55, 15, 0],
+		"layer0.texture": "Guna/assets/simple/sidebar/sidebar-bg-clock@1.33.png",
+		"layer0.inner_margin": [15, 70, 15, 0],
 		"layer0.tint": [24, 31, 39],
 		"layer0.opacity": 1,
 		"content_margin": [0, 45, 0, 0]
@@ -217,7 +217,7 @@
 	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h19", "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h19.png", "layer1.opacity": 1 },
 	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h20", "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h20.png", "layer1.opacity": 1 },
 	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h21", "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h21.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h22", "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h22.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h22", "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h21@1.33.png", "layer1.opacity": 1 },
 	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h23", "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h23.png", "layer1.opacity": 1 },
 
 	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_m10.png", "layer2.opacity": 1 },
@@ -365,7 +365,7 @@
 		"class": "icon_file_type",
 		"layer0.opacity": 0.75,
 		"layer0.inner_margin": [0, 2, 0, -2],
-		"content_margin": [8, 8]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_file_type",
@@ -379,7 +379,7 @@
 	},
 	{
 		"class": "icon_folder",
-		"content_margin": [8, 8],
+		"content_margin": [10, 10],
 		"layer0.tint": [22, 28, 35],
 		"layer0.opacity": 0,
 		"layer1.texture": "Guna/assets/simple/sidebar/folder/folder.png",
@@ -448,7 +448,7 @@
 		},
 		"layer1.tint": [255, 204, 103],
 		"layer0.opacity": 0,
-		"content_margin": [8, 8]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_folder_dup",
@@ -505,7 +505,7 @@
 		"tab_overlap": 0,
 		"tab_width": 120,
 		"tab_min_width": 120,
-		"tab_height": 55,
+		"tab_height": 73,
 		"mouse_wheel_switch": false,
 		"layer0.tint": [20, 25, 32],
 		"layer0.opacity": 1,
@@ -599,7 +599,7 @@
 	},
 	{
 		"class": "tab_close_button",
-		"content_margin": [8, 8],
+		"content_margin": [10, 10],
 		"layer0.texture": "Guna/assets/simple/tab/tab-close.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1
@@ -668,7 +668,7 @@
 	},
 	{
 		"class": "show_tabs_dropdown_button",
-		"content_margin": [8, 8, 16, 8],
+		"content_margin": [10, 10, 21, 10],
 		"layer0.texture": "Guna/assets/simple/tab/tab-dropdown.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1
@@ -730,7 +730,7 @@
 	},
 	{
 		"class": "panel_button_control",
-		"content_margin": [12, 8],
+		"content_margin": [15, 10],
 		"layer0.texture": "Guna/assets/simple/status-bar/switch-panel.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1
@@ -821,7 +821,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/regex.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": [13, 13]
 	},
 	{
 		"class": "icon_regex",
@@ -838,7 +838,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/matchcase.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": [13, 13]
 	},
 	{
 		"class": "icon_case",
@@ -855,7 +855,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/word.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": [13, 13]
 	},
 	{
 		"class": "icon_whole_word",
@@ -872,7 +872,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/wrap.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": [13, 13]
 	},
 	{
 		"class": "icon_wrap",
@@ -889,7 +889,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/inselection.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": [13, 13]
 	},
 	{
 		"class": "icon_in_selection",
@@ -906,7 +906,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/highlight.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": [13, 13]
 	},
 	{
 		"class": "icon_highlight",
@@ -923,7 +923,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/replace-preserve-case.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": [13, 13]
 	},
 	{
 		"class": "icon_preserve_case",
@@ -940,7 +940,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/context.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": [13, 13]
 	},
 	{
 		"class": "icon_context",
@@ -957,7 +957,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/buffer.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": [13, 13]
 	},
 	{
 		"class": "icon_use_buffer",
@@ -974,7 +974,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/reverse.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [10, 10]
+		"content_margin": [13, 13]
 	},
 	{
 		"class": "icon_reverse",
@@ -1099,14 +1099,14 @@
 		"layer0.tint": [41, 112, 128],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [0, 10],
-		"content_margin": [7, 24],
+		"content_margin": [9, 31],
 		"blur": false
 	},
 	{
 		"class": "puck_control",
 		"settings": ["gn_sb_cnvx"],
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-v-mpk.png",
-		"content_margin": [8, 24]
+		"content_margin": [10, 31]
 	},
 	{
 		"class": "scroll_bar_control",
@@ -1121,7 +1121,7 @@
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-h-flat.png",
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [10, 0],
-		"content_margin": [24, 5],
+		"content_margin": [31, 6],
 		"blur": false
 	},
 	{
@@ -1129,7 +1129,7 @@
 		"attributes": ["horizontal"],
 		"settings": ["gn_sb_cnvx"],
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-h.png",
-		"content_margin": [24, 6]
+		"content_margin": [31, 7]
 	},
 	{
 		"class": "scroll_corner_control",
@@ -1158,7 +1158,7 @@
 		"layer0.tint": [41, 112, 128],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [0, 10],
-		"content_margin": [7, 24],
+		"content_margin": [9, 31],
 		"blur": false
 	},
 	{
@@ -1166,7 +1166,7 @@
 		"parents": [{"class": "sidebar_container"}],
 		"settings": ["gn_sb_cnvx"],
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-v-spk.png",
-		"content_margin": [8, 24]
+		"content_margin": [10, 31]
 	},
 	{
 		"class": "scroll_bar_control",
@@ -1183,7 +1183,7 @@
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-h-flat.png",
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [10, 0],
-		"content_margin": [24, 5],
+		"content_margin": [31, 6],
 		"blur": false
 	},
 	{
@@ -1192,7 +1192,7 @@
 		"attributes": ["horizontal"],
 		"settings": ["gn_sb_cnvx"],
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-h.png",
-		"content_margin": [24, 6]
+		"content_margin": [31, 7]
 	},
 	{
 		"class": "scroll_corner_control",
