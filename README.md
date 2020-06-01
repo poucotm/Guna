@@ -59,7 +59,7 @@ Thank you for donating. It is helpful to continue to improve the plug-in.
 
 ### Credits
 
-- Icons designed by [Freepik](http://www.freepik.com/), [Dave Gandy](https://www.flaticon.com/authors/dave-gandy), [Madebyoliver](https://www.flaticon.com/authors/madebyoliver), [Gregor Cresnar](https://www.flaticon.com/authors/gregor-cresnar), [Smartline](https://www.flaticon.com/authors/smartline), [Vectors Market](https://www.flaticon.com/authors/vectors-market), [Alfredo Hernandez](https://www.alfredocreates.com/) [Monkik](https://www.flaticon.com/kr/authors/monkik) from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
+- Icons designed by [Freepik](http://www.freepik.com/), [Dave Gandy](https://www.flaticon.com/authors/dave-gandy), [Madebyoliver](https://www.flaticon.com/authors/madebyoliver), [Gregor Cresnar](https://www.flaticon.com/authors/gregor-cresnar), [Smartline](https://www.flaticon.com/authors/smartline), [Vectors Market](https://www.flaticon.com/authors/vectors-market), [Monkik](https://www.flaticon.com/kr/authors/monkik) from [www.flaticon.com](https://www.flaticon.com/) [Linector](https://www.flaticon.com/authors/Linector) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
 
 ### License
 

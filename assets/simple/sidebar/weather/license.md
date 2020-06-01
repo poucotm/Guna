@@ -1,6 +1,6 @@
 
-- `wX01.png`, `wX02.png`, `wX03.png`, designed by [Alfredo Hernandez](https://www.alfredocreates.com/)
+- `wX01.png`, `wX02.png`, `wX10.png`, designed by Linector
  from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
 
-- `wX09.png`, `wX10.png`, `wX11.png`, `wX13.png`, `wX13.png` designed by [Alfredo Hernandez](https://www.alfredocreates.com/)
+- `wX03.png`, `wX09.png`, `wX11.png`, `wX50.png`, `wX13.png` designed by [Freepik](http://www.freepik.com/)
  from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
