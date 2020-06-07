@@ -157,10 +157,12 @@
 		"layer0.texture": "Guna/assets/simple/sidebar/sidebar-bg-clock@wscale.png",
 		#wscale-@1x"layer0.inner_margin": [15, 55, 15, 0],
 		#wscale-@1.33x"layer0.inner_margin": [15, 70, 15, 0],
+		#wscale-@1.8x"layer0.inner_margin": [15, 92, 15, 0],
 		"layer0.tint": #base-color+x,
 		"layer0.opacity": 1,
-		#wscale-@1x"content_margin": [0, 45, 0, 0]
-		#wscale-@1.33x"content_margin": [0, 60, 0, 0]
+		#wscale-@1x"content_margin": [0, 45, 0, 0],
+		#wscale-@1.33x"content_margin": [0, 60, 0, 0],
+		#wscale-@1.8x"content_margin": [0, 82, 0, 0],
 	},
 	{
 		"class": "sidebar_container",
