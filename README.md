@@ -47,6 +47,16 @@ If you want to see the example, simply type __*raise*__ in Sublime console.
 
 Please, refer to [__Guna's API__][L10]
 
+### UI Scaling
+
+[__Guna theme settings__][L11]
+```
+{
+	"scale": 1.5, // control sizes of buttons, file icons, tab ...
+	"widget_scale": 1.33, // control sizes of clock, weather widget ...
+}
+```
+
 ### File Type Icons
 
 Guna doesn't have it's own file type icons except for Verilog/Systemverilog.
@@ -78,5 +88,6 @@ Guna is licensed under a [Creative Commons Attribution-NonCommercial 4.0 Interna
 [L8]:https://packagecontrol.io/packages/SublimeLinter "SublimeLinter"
 [L9]:https://github.com/poucotm/Guna/blob/master/themes/preset/theme-settings.md
 [L10]:https://github.com/poucotm/Guna/blob/master/README-API.md "Guna API"
+[L11]:https://github.com/poucotm/Guna/blob/master/themes/preset/Guna-dark.sublime-settings "Guna Dark(Light) theme Settings"
 [PP]:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=89YVNDSC7DZHQ "PayPal"
 [PM]:https://www.paypal.me/poucotm/1.0 "PayPal"

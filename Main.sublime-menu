@@ -20,6 +20,7 @@
 								"command": "guna_readme"
 							},
 							{ "caption": "-" },
+							{ "caption": "-" },
 							{
 								"caption": "Settings",
 								"command": "edit_settings",
@@ -43,6 +44,11 @@
 									"base_file": "${packages}/Guna/themes/preset/Guna-light.sublime-settings",
 									"default": "// Specify your own settings. You don't need to restart\n{\n\n}\n"
 								},
+							},
+							{ "caption": "-" },
+							{
+								"caption": "Upscale Icon - A File Icon",
+								"command": "guna_upscale_icon",
 							},
 						]
 					}
