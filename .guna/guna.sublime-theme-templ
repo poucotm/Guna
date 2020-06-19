@@ -191,6 +191,23 @@
 	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg1"], "layer2.tint": #clock-color-info },
 	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg1"], "layer3.tint": #clock-color-info },
 
+#widget-date
+	{ "class": "sidebar_container", "settings" : ["gnwidg2"], "layer1.tint": #clock-color },
+	{ "class": "sidebar_container", "settings" : ["gnwidg2"], "layer2.tint": #clock-color },
+	{ "class": "sidebar_container", "settings" : ["gnwidg2"], "layer3.tint": #clock-color },
+	{ "class": "sidebar_container", "settings" : ["gnc_001", "gnwidg2"], "layer1.tint": #clock-color-dirty },
+	{ "class": "sidebar_container", "settings" : ["gnc_001", "gnwidg2"], "layer2.tint": #clock-color-dirty },
+	{ "class": "sidebar_container", "settings" : ["gnc_001", "gnwidg2"], "layer3.tint": #clock-color-dirty },
+	{ "class": "sidebar_container", "settings" : ["gnc_002", "gnwidg2"], "layer1.tint": #clock-color-readonly },
+	{ "class": "sidebar_container", "settings" : ["gnc_002", "gnwidg2"], "layer2.tint": #clock-color-readonly },
+	{ "class": "sidebar_container", "settings" : ["gnc_002", "gnwidg2"], "layer3.tint": #clock-color-readonly },
+	{ "class": "sidebar_container", "settings" : ["gni_001", "gnwidg2"], "layer1.tint": #clock-color-alert },
+	{ "class": "sidebar_container", "settings" : ["gni_001", "gnwidg2"], "layer2.tint": #clock-color-alert },
+	{ "class": "sidebar_container", "settings" : ["gni_001", "gnwidg2"], "layer3.tint": #clock-color-alert },
+	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg2"], "layer1.tint": #clock-color-info },
+	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg2"], "layer2.tint": #clock-color-info },
+	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg2"], "layer3.tint": #clock-color-info },
+
 #widget-weather
 	{
 		"class": "sidebar_tree",

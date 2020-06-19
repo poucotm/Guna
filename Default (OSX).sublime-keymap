@@ -1,5 +1,5 @@
 [
 	{ "keys": ["super+ctrl+f11"], "command": "guna_toggle_full_screen" },
 	{ "keys": ["alt+f5"], "command": "refresh_folder_list" },
-	{ "keys": ["shift+escape"], "command": "guna_toggle_widget" }
+	{ "keys": ["shift+escape"], "command": "guna_switch_widget" }
 ]
