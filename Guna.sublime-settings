@@ -2,7 +2,7 @@
 	/*  UI Configuration  _________________________________________
 	*/
 
-	// Select the sidebar widget ["clock"], ["date"], ["weather"], ["clock", "weather", "date"], ...
+	// Select the sidebar widget [], ["clock"], ["date"], ["weather"], ["clock", "weather", "date"], ...
 	// Widget switching is possible by using 'shift+esc'
 	"sidebar_widget": ["clock"],
 

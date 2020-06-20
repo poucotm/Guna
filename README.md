@@ -22,7 +22,7 @@ __Clock__ / __Date__ : The color of clock expresses the status of active view.
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-reado.png) : Read only state  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-alert.png) : Alert state (only controlled by API)  
 
-__Weather__ : The weather widget had been added (from v1.4.0). The widget uses [https://openweathermap.org](https://openweathermap.org) for weather information and you can access after getting your own [__AppID__](http://openweathermap.org/appid). After getting it, fill out weather settings in [__Guna.sublime-settings__][L6]. The 1st icon means current weather, the 2nd icon means forecast in 3 hours, the 3rd icon means forecast in 6 hours. Normally, it will be updated every half an hour.
+__Weather__ : The weather widget has been added (from v1.4.0). The widget uses [https://openweathermap.org](https://openweathermap.org) for weather information and you can access after getting your own [__AppID__](http://openweathermap.org/appid). After getting it, fill out weather settings in [__Guna.sublime-settings__][L6]. The 1st icon means current weather, the 2nd icon means forecast in 3 hours, the 3rd icon means forecast in 6 hours. Normally, it will be updated every half an hour.
 
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-weather.png)
 
