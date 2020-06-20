@@ -38,7 +38,7 @@
 
 	/*  Theme Tweak  ______________________________________________
 		- "tweak_mode" : "adaptive", or "manual"
-		  -> "manual" mode is deprecated (from v1.8.0)
+		  -> "manual" mode was deprecated (from v1.8.0)
 		  -> To override colors or font faces, use "Preferences > Package Settings > Guna > Dark (Light) theme settings"
 		     Only the input panel background color will be applied when restart once
 	*/

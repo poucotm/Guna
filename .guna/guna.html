@@ -23,26 +23,63 @@
 
 <div class="texts">
 
-<div class='head3'>Fonts</div>
-<p>Guna uses <a href="https://dejavu-fonts.github.io/" title="Dejavu Sans"><strong>Dejavu Sans</strong></a> as default font for UI and <a href="https://fonts.google.com/specimen/Roboto" title="Roboto Family">Roboto Condensed</a> is used only for status bar. But you can change them in user settings among 5 fonts - <a href="https://dejavu-fonts.github.io/" title="Dejavu Sans">Dejavu Sans</a>, <a href="https://fonts.google.com/specimen/Source+Sans+Pro" title="Source Sans Pro">Source Sans Pro</a>, <a href="https://fonts.google.com/specimen/Open+Sans" title="Open Sans">Open Sans</a>, <a href="https://fonts.google.com/specimen/Roboto" title="Roboto Family">Roboto</a>, <a href="https://fonts.google.com/specimen/Roboto" title="Roboto Family">Roboto Condensed</a>. For <strong>Sublime Text 3 (3143)</strong> on Windows, in order to apply <i>Roboto Condensed</i>, you may have to add <strong><i>"theme_font_options": "gdi"</i></strong> in Preference.sublime-settings.</p>
+<p>
+Guna is most innovative theme for sublime text 3. It supports various functions : conspicuous widgets (clock, weather) on sidebar, manually or adaptively tweakable theme colors, controlling status bar label by its own api.
+</p>
 
 <div class='head3'>Theme Activation</div>
 <p>Simply, run <strong><i>Guna</i></strong> in <strong><i>command palette</i></strong> (<i>cmd/ctrl+shift+p</i>). You don't need to edit <strong><i>theme</i></strong> and <strong><i>color_scheme</i></strong> directly in settings. I recommend that you select <strong><i>View &gt; Side Bar &gt; Hide Open Files</i></strong> for better view. When Guna removed, it automatically restores theme and color scheme as the last before activating Guna. Guna supports <a href="https://packagecontrol.io/packages/SublimeLinter" title="SublimeLinter">SublimeLinter</a> not to override color-scheme.</p>
 
-<div class='head3'>Settings</div>
-<p><strong>DO NOT</strong> directly edit <strong><i>Preferences.sublime-settings</i></strong>. Use <strong><i>User/Guna.sublime-settings</i></strong> by <strong><i>Preferences &gt; Package Settings &gt; Guna &gt; settings</i></strong> menu. That is more comfortable. It will take effect in a second. There is no need to restart sublime text. Various options are ready to control UI like show/hide clock, colors, fonts, etc. Please, refer to <a href="https://raw.githubusercontent.com/poucotm/Guna/master/Guna.sublime-settings" title="Guna Settings"><strong>Guna.sublime-settings</strong></a></p>
+<div class='head3'>Fonts</div>
+<p>Guna uses <a href="https://dejavu-fonts.github.io/" title="Dejavu Sans"><strong>Dejavu Sans</strong></a> as default font for UI and <a href="https://fonts.google.com/specimen/Roboto" title="Roboto Family">Roboto Condensed</a> is used only for status bar. But you can change them in the theme-tweak settings as you want.
+</p>
 
-<div class='head3'>Clock Color</div>
-<p>The color of clock expresses the status of active view.</p>
+<div class='head3'>Widgets</div>
 <p>
+<strong>Clock / Date</strong> : The color of clock expresses the status of active view.<br><br>
 <img src=res://Packages/Guna/.guna/guna-status-normal.png width="0" height="0"><br>
 <img src=res://Packages/Guna/.guna/guna-status-normal.png width="96" height="26"> : Normal state<br>
 <img src=res://Packages/Guna/.guna/guna-status-dirty.png width="96" height="26"> : Dirty or scrach state<br>
 <img src=res://Packages/Guna/.guna/guna-status-reado.png width="96" height="26"> : Read only state<br>
 <img src=res://Packages/Guna/.guna/guna-status-alert.png width="96" height="26"> : Alert state (only controlled by API)<br></p>
 
-<div class='head3'>Full Screen On Start</div>
-<p><strong><i>ctrl+f11</i></strong>(Windows/Linux), <strong><i>cmd+ctrl+f11</i></strong>(OSX) are full screen toggle keys on full screen start mode. You can turn on that mode by changing Guna.sublime-settings. The menu bar will be hidden in full screen mode and shown in normal mode. I recommend that you simply override original full screen toggle key as <strong><i>guna_toggle_full_screen</i></strong>. It acts as original when you turn off that mode.</p>
+<p>
+<strong>Weather</strong> : The weather widget has been added (from v1.4.0). The widget uses <a href="https://openweathermap.org">https://openweathermap.org</a> for weather information and you can access after getting your own <a href="http://openweathermap.org/appid"><strong>AppID</strong></a>. After getting it, fill out weather settings in <strong><i>Guna.sublime-settings</i></strong>. The 1st icon means current weather, the 2nd icon means forecast in 3 hours, the 3rd icon means forecast in 6 hours. Normally, it will be updated every half an hour.
+<br><br>
+<img src=res://Packages/Guna/.guna/guna-weather.png width="399" height="148"><br>
+</p>
+
+<div class='head3'>Adaptive Theme</div>
+<p>
+Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color-schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once only for the input panel's background change. In order to override colors and font faces, use <strong><i>Preferences > Package Settings > Guna > Dark (Light) theme settings.</i></strong>
+</p>
+
+
+<div class='head3'>UI Scaling</div>
+<br>
+<div class="code">
+{<br>
+&nbsp; &nbsp; "scale": 1.5, // control sizes of buttons, file icons, tab ... <br>
+&nbsp; &nbsp; &nbsp;"widget_scale": 1.33, // control sizes of clock, weather widget ... <br>
+}
+</div>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class='head3'>Key Map</div>
 <p><strong><i>f5</i></strong>(Windows/Linux), <strong><i>alt+f5</i></strong>(OSX) are assigned for refresh folder list in side bar.</p>
@@ -60,10 +97,6 @@
 </div>
 <br>
 
-<div class='head3'>Environment</div>
-<p>Mainly designed and developed at <strong>Sublime Text 3 (3126)</strong> on Windows7 with non-high dpi display. Operation is not guranteed at lower versions. Occasionally, tested on OSX / Linux, the views are not exaclty same.</p>
-
-
 <div class='head3'>File Type Icons</div>
 <p>Guna doesn't have it's own file type icons except for Verilog/Systemverilog.
 In screenshots above, <a href="https://packagecontrol.io/packages/A%20File%20Icon" title="A File Icon">A File Icon</a> is used, and recommended.</p>
@@ -74,7 +107,7 @@ Thank you for donating. It is helpful to continue to improve the plug-in.</p>
 
 <div class='head3'>Credits</div>
 <ul>
-<li>Icons designed by <a href="http://www.freepik.com/">Freepik</a>, <a href="https://www.flaticon.com/authors/dave-gandy">Dave Gandy</a>, <a href="https://www.flaticon.com/authors/madebyoliver">Madebyoliver</a>, <a href="https://www.flaticon.com/authors/gregor-cresnar">Gregor Cresnar</a>, <a href="https://www.flaticon.com/authors/smartline">Smartline</a>, <a href="https://www.flaticon.com/authors/vectors-market">Vectors Market</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a></li>
+<li>Icons designed by <a href="http://www.freepik.com/">Freepik</a>, <a href="https://www.flaticon.com/authors/dave-gandy">Dave Gandy</a>, <a href="https://www.flaticon.com/authors/madebyoliver">Madebyoliver</a>, <a href="https://www.flaticon.com/authors/gregor-cresnar">Gregor Cresnar</a>, <a href="https://www.flaticon.com/authors/smartline">Smartline</a>, <a href="https://www.flaticon.com/kr/authors/monkik">Monkik</a>, <a href="https://www.flaticon.com/authors/Linector">Linector</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a></li>
 </ul>
 
 <div class='head3'>License</div>
