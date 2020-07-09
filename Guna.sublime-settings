@@ -5,6 +5,7 @@
 	// Select the sidebar widget [], ["clock"], ["date"], ["weather"], ["clock", "weather", "date"], ...
 	// Widget switching is possible by using 'shift+esc'
 	"sidebar_widget": ["clock"],
+	"sidebar_widget_clock_mode": "24h",
 
 	// Hide tab close button
 	"hide_tab_close": false,
