@@ -31,7 +31,7 @@
 
 	{
 		"class": "button_control",
-		"content_margin": [19, 13, 19, 13],
+		"content_margin": [15, 10, 15, 10],
 		"min_size": [70, 0],
 		"layer0.texture": "Guna/assets/simple/widget/btn-border.png",
 		"layer0.inner_margin": [10, 8],
@@ -72,7 +72,7 @@
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [10, 8],
 		"layer0.tint": [28, 35, 44],
-		"content_margin": [10, 7, 13, 7]
+		"content_margin": [10, 6, 10, 6]
 	},
 	{
 		"class": "text_line_control",
@@ -132,11 +132,11 @@
 		"layer1.opacity": 1,
 		"layer1.tint": [255, 204, 103],
 		"layer1.inner_margin": [32, 32, 0, 0],
-		"content_margin": [53, 5, 13, 5]
+		"content_margin": [40, 4, 10, 4]
 	},
 	{
 		"class": "dropdown_button_control",
-		"content_margin": [10, 10],
+		"content_margin": [8, 8],
 		"layer0.texture": "Guna/assets/simple/widget/button/dropdown.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1
@@ -154,15 +154,11 @@
 
 	{
 		"class": "sidebar_container",
-		"layer0.texture": "Guna/assets/simple/sidebar/sidebar-bg-clock@1.33.png",
-		//"layer0.inner_margin": [15, 55, 15, 0],
-		"layer0.inner_margin": [15, 70, 15, 0],
-		//"layer0.inner_margin": [15, 92, 15, 0],
+		"layer0.texture": "Guna/assets/simple/sidebar/sidebar-bg-clock.png",
+		"layer0.inner_margin": [15, 55, 15, 0],
 		"layer0.tint": [24, 31, 39],
 		"layer0.opacity": 1,
-		//"content_margin": [0, 45, 0, 0],
-		"content_margin": [0, 60, 0, 0],
-		//"content_margin": [0, 82, 0, 0],
+		"content_margin": [0, 45, 0, 0]
 	},
 	{
 		"class": "sidebar_container",
@@ -174,84 +170,84 @@
 		"content_margin": [0, 0, 0, 0]
 	},
 
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h00",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h00@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h01",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h01@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h02",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h02@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h03",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h03@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h04",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h04@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h05",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h05@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h06",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h06@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h07",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h07@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h08",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h08@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h09",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h09@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h10",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h10@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h11",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h11@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h12",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h12@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h13",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h13@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h14",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h14@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h15",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h15@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h16",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h16@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h17",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h17@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h18",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h18@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h19",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h19@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h20",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h20@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h21",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h21@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h22",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h22@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_h23",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h23@1.33.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h00",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h00.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h01",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h01.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h02",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h02.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h03",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h03.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h04",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h04.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h05",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h05.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h06",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h06.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h07",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h07.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h08",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h08.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h09",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h09.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h10",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h10.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h11",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h11.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h12",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h12.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h13",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h13.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h14",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h14.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h15",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h15.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h16",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h16.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h17",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h17.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h18",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h18.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h19",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h19.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h20",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h20.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h21",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h21.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h22",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h22.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_h23",   "gnwidg1"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_h23.png", "layer1.opacity": 1 },
 
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w0m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w0m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w0m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w0m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w0m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m14@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w0m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m15@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w1m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w1m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w1m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w1m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w1m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m14@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w1m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m15@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w2m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w2m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w2m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w2m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w2m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m14@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w2m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m15@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w3m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w3m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w3m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w3m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w3m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m14@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w3m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m15@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w4m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w4m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w4m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w4m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w4m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m14@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w4m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m15@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w5m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w5m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w5m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w5m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w5m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m14@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w5m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m15@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w6m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w6m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w6m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w6m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w6m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m14@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_w6m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m15@1.33.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w0m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w0m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w0m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w0m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w0m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m14.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w0m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m15.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w1m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w1m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w1m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w1m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w1m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m14.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w1m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m15.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w2m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w2m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w2m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w2m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w2m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m14.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w2m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m15.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w3m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w3m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w3m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w3m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w3m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m14.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w3m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m15.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w4m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w4m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w4m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w4m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w4m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m14.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w4m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m15.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w5m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w5m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w5m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w5m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w5m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m14.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w5m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m15.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w6m10", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w6m11", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w6m12", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w6m13", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w6m14", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m14.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_w6m15", "gnwidg1"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m15.png", "layer2.opacity": 1 },
 
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_m00",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m00@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_m01",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m01@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_m02",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m02@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_m03",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m03@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_m04",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m04@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_m05",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m05@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_m06",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m06@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_m07",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m07@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_m08",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m08@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnc_m09",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m09@1.33.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_m00",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m00.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_m01",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m01.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_m02",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m02.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_m03",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m03.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_m04",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m04.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_m05",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m05.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_m06",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m06.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_m07",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m07.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_m08",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m08.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnc_m09",   "gnwidg1"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m09.png", "layer3.opacity": 1 },
 
 	{ "class": "sidebar_container", "settings" : ["gnwidg1"], "layer1.tint": [255, 204, 103] },
 	{ "class": "sidebar_container", "settings" : ["gnwidg1"], "layer2.tint": [255, 204, 103] },
@@ -269,58 +265,58 @@
 	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg1"], "layer2.tint": [25, 255, 255] },
 	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg1"], "layer3.tint": [25, 255, 255] },
 
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m01",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm01@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m02",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm02@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m03",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm03@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m04",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm04@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m05",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm05@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m06",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm06@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m07",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm07@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m08",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm08@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m09",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm09@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m10",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm10@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m11",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm11@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_m12",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm12@1.33.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m01",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm01.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m02",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm02.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m03",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm03.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m04",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm04.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m05",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm05.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m06",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm06.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m07",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm07.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m08",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm08.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m09",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm09.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m10",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm10.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m11",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm11.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_m12",   "gnwidg2"], "layer1.texture": "Guna/assets/simple/sidebar/clock/clock_dm12.png", "layer1.opacity": 1 },
 
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w0d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w0d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w0d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w0d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w1d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w1d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w1d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w1d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w2d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w2d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w2d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w2d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w3d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w3d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w3d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w3d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w4d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w4d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w4d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w4d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w5d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w5d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w5d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w5d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m13@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w6d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m10@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w6d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m11@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w6d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m12@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_w6d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m13@1.33.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w0d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w0d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w0d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w0d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w0m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w1d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w1d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w1d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w1d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w1m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w2d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w2d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w2d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w2d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w2m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w3d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w3d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w3d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w3d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w3m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w4d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w4d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w4d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w4d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w4m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w5d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w5d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w5d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w5d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w5m13.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w6d10", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m10.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w6d11", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m11.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w6d12", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m12.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_w6d13", "gnwidg2"], "layer2.texture": "Guna/assets/simple/sidebar/clock/clock_w6m13.png", "layer2.opacity": 1 },
 
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_d00",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m00@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_d01",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m01@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_d02",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m02@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_d03",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m03@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_d04",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m04@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_d05",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m05@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_d06",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m06@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_d07",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m07@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_d08",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m08@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnd_d09",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m09@1.33.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_d00",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m00.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_d01",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m01.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_d02",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m02.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_d03",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m03.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_d04",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m04.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_d05",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m05.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_d06",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m06.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_d07",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m07.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_d08",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m08.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnd_d09",   "gnwidg2"], "layer3.texture": "Guna/assets/simple/sidebar/clock/clock_m09.png", "layer3.opacity": 1 },
 
 	{ "class": "sidebar_container", "settings" : ["gnwidg2"], "layer1.tint": [255, 204, 103] },
 	{ "class": "sidebar_container", "settings" : ["gnwidg2"], "layer2.tint": [255, 204, 103] },
@@ -338,36 +334,35 @@
 	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg2"], "layer2.tint": [25, 255, 255] },
 	{ "class": "sidebar_container", "settings" : ["gni_004", "gnwidg2"], "layer3.tint": [25, 255, 255] },
 
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_001",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w001@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_002",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w002@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_003",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w003@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_004",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w003@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_009",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w009@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_010",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w010@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_011",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w011@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_013",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w013@1.33.png", "layer1.opacity": 1 },
-	{ "class": "sidebar_container", "layer1.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_050",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w050@1.33.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_001",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w001.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_002",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w002.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_003",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w003.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_004",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w003.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_009",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w009.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_010",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w010.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_011",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w011.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_013",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w013.png", "layer1.opacity": 1 },
+	{ "class": "sidebar_container", "layer1.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_050",   "gnwidg3"], "layer1.texture": "Guna/assets/simple/sidebar/weather/w050.png", "layer1.opacity": 1 },
 
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_301",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w301@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_302",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w302@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_303",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w303@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_304",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w303@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_309",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w309@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_310",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w310@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_311",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w311@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_313",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w313@1.33.png", "layer2.opacity": 1 },
-	{ "class": "sidebar_container", "layer2.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_350",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w350@1.33.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_301",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w301.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_302",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w302.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_303",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w303.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_304",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w303.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_309",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w309.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_310",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w310.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_311",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w311.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_313",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w313.png", "layer2.opacity": 1 },
+	{ "class": "sidebar_container", "layer2.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_350",   "gnwidg3"], "layer2.texture": "Guna/assets/simple/sidebar/weather/w350.png", "layer2.opacity": 1 },
 
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_601",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w601@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_602",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w602@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_603",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w603@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_604",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w603@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_609",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w609@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_610",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w610@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_611",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w611@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_613",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w613@1.33.png", "layer3.opacity": 1 },
-	{ "class": "sidebar_container", "layer3.inner_margin": [160, 52, 0, 0], "settings" : ["gnw_650",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w650@1.33.png", "layer3.opacity": 1 },
-
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_601",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w601.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_602",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w602.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_603",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w603.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_604",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w603.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_609",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w609.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_610",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w610.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_611",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w611.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_613",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w613.png", "layer3.opacity": 1 },
+	{ "class": "sidebar_container", "layer3.inner_margin": [120, 40, 0, 0], "settings" : ["gnw_650",   "gnwidg3"], "layer3.texture": "Guna/assets/simple/sidebar/weather/w650.png", "layer3.opacity": 1 },
 	{
 		"class": "sidebar_tree",
 		"row_padding": [15, 4],
@@ -449,7 +444,7 @@
 		"class": "icon_file_type",
 		"layer0.opacity": 0.75,
 		"layer0.inner_margin": [0, 2, 0, -2],
-		"content_margin": [10, 10]
+		"content_margin": [8, 8]
 	},
 	{
 		"class": "icon_file_type",
@@ -463,7 +458,7 @@
 	},
 	{
 		"class": "icon_folder",
-		"content_margin": [10, 10],
+		"content_margin": [8, 8],
 		"layer0.tint": [22, 28, 35],
 		"layer0.opacity": 0,
 		"layer1.texture": "Guna/assets/simple/sidebar/folder/folder.png",
@@ -533,7 +528,7 @@
 		},
 		"layer1.tint": [255, 204, 103],
 		"layer0.opacity": 0,
-		"content_margin": [10, 10]
+		"content_margin": [8, 8]
 	},
 	{
 		"class": "icon_folder_dup",
@@ -590,7 +585,7 @@
 		"tab_overlap": 0,
 		"tab_width": 120,
 		"tab_min_width": 120,
-		"tab_height": 73,
+		"tab_height": 55,
 		"mouse_wheel_switch": false,
 		"layer0.tint": [20, 25, 32],
 		"layer0.opacity": 1,
@@ -684,7 +679,8 @@
 	},
 	{
 		"class": "tab_close_button",
-		"content_margin": [10, 10],
+		"content_margin": [8, 8],
+		"content_margin": [8, 8],
 		"layer0.texture": "Guna/assets/simple/tab/tab-close.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1
@@ -753,7 +749,7 @@
 	},
 	{
 		"class": "show_tabs_dropdown_button",
-		"content_margin": [10, 10, 21, 10],
+		"content_margin": [8, 8, 16, 8],
 		"layer0.texture": "Guna/assets/simple/tab/tab-dropdown.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1
@@ -815,7 +811,7 @@
 	},
 	{
 		"class": "panel_button_control",
-		"content_margin": [15, 10],
+		"content_margin": [12, 8],
 		"layer0.texture": "Guna/assets/simple/status-bar/switch-panel.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1
@@ -906,7 +902,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/regex.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [13, 13]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_regex",
@@ -923,7 +919,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/matchcase.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [13, 13]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_case",
@@ -940,7 +936,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/word.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [13, 13]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_whole_word",
@@ -957,7 +953,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/wrap.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [13, 13]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_wrap",
@@ -974,7 +970,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/inselection.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [13, 13]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_in_selection",
@@ -991,7 +987,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/highlight.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [13, 13]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_highlight",
@@ -1008,7 +1004,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/replace-preserve-case.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [13, 13]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_preserve_case",
@@ -1025,7 +1021,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/context.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [13, 13]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_context",
@@ -1042,7 +1038,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/buffer.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [13, 13]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_use_buffer",
@@ -1059,7 +1055,7 @@
 		"layer0.texture": "Guna/assets/simple/widget/button/reverse.png",
 		"layer0.tint": [71, 86, 102],
 		"layer0.opacity": 1,
-		"content_margin": [13, 13]
+		"content_margin": [10, 10]
 	},
 	{
 		"class": "icon_reverse",
@@ -1141,9 +1137,7 @@
 		"fg": [166, 152, 141],
 		"match_fg": [109, 163, 99],
 		"selected_fg": [255, 204, 153],
-		"selected_match_fg": [170, 255, 154],
-		"font.face": "Segoe UI",
-		"font.size": 14
+		"selected_match_fg": [170, 255, 154]
 	},
 	{
 		"class": "quick_panel_label",
@@ -1184,14 +1178,14 @@
 		"layer0.tint": [41, 112, 128],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [0, 10],
-		"content_margin": [9, 31],
+		"content_margin": [7, 24],
 		"blur": false
 	},
 	{
 		"class": "puck_control",
 		"settings": ["gn_sb_cnvx"],
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-v-mpk.png",
-		"content_margin": [10, 31]
+		"content_margin": [8, 24]
 	},
 	{
 		"class": "scroll_bar_control",
@@ -1206,7 +1200,7 @@
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-h-flat.png",
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [10, 0],
-		"content_margin": [31, 6],
+		"content_margin": [24, 5],
 		"blur": false
 	},
 	{
@@ -1214,7 +1208,7 @@
 		"attributes": ["horizontal"],
 		"settings": ["gn_sb_cnvx"],
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-h.png",
-		"content_margin": [31, 7]
+		"content_margin": [24, 6]
 	},
 	{
 		"class": "scroll_corner_control",
@@ -1243,7 +1237,7 @@
 		"layer0.tint": [41, 112, 128],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [0, 10],
-		"content_margin": [9, 31],
+		"content_margin": [7, 24],
 		"blur": false
 	},
 	{
@@ -1251,7 +1245,7 @@
 		"parents": [{"class": "sidebar_container"}],
 		"settings": ["gn_sb_cnvx"],
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-v-spk.png",
-		"content_margin": [10, 31]
+		"content_margin": [8, 24]
 	},
 	{
 		"class": "scroll_bar_control",
@@ -1268,7 +1262,7 @@
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-h-flat.png",
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [10, 0],
-		"content_margin": [31, 6],
+		"content_margin": [24, 5],
 		"blur": false
 	},
 	{
@@ -1277,7 +1271,7 @@
 		"attributes": ["horizontal"],
 		"settings": ["gn_sb_cnvx"],
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-h.png",
-		"content_margin": [31, 7]
+		"content_margin": [24, 6]
 	},
 	{
 		"class": "scroll_corner_control",
