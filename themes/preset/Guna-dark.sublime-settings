@@ -1,24 +1,24 @@
 {
-	// Scale
+	// scale
 	"scale": 1,
 
 	// widget_scale : 1 or 1.33 or 1.8
 	"widget_scale": 1,
 
-	// Clock
+	// clock
 	"clock.color": "#FFCC67",
 	"clock.color.dirty": "#FF3377",
 	"clock.color.readonly": "#B4B4B4",
 	"clock.color.alert": "#FF1919",
 	"clock.color.info": "#19FFFF",
 
-	// Icon
+	// icon
 	"icon.color": "#475666",
 	"icon.color.selected": "#FFCC67",
 	"icon.color.pressed": "#FF5500",
 	"icon.color.hover": "#D9D9D9",
 
-	// Select tab font
+	// select tab font
 	"tab_font.face": "Dejavu Sans",
 	"tab_font.bold": false,
 	"tab_font.size": 13,
@@ -27,31 +27,34 @@
 	"tab_font.color.hover": "#FFCC67",
 	"tab_font.color.dirty": "#FF3377",
 
-	// Select label font
+	// select label font
 	"label_font.face": "Dejavu Sans",
 	"label_font.size": 12,
 	"label_font.color": "#B3AA59",
 
-	// Select sidebar font
+	// select sidebar font
 	"sidebar_font.face": "Dejavu Sans",
 	"sidebar_font.size": 13,
 	"sidebar_font.color": "#677A83",
 	"sidebar_font.color.selected": "#D9D7CE",
 	"sidebar_head.color": "#D9D7CE",
 
-	// Select status bar font
+	// select status bar font
 	"status_bar_font.face": "Roboto Condensed",
 	"status_bar_font.size": 12,
 	"status_bar_font.color": "#0095B3",
 
-	// Panel, Widget
+	// panel font
 	"panel_font.face": "Segoe UI",
 	"panel_font.size": 14,
 	"panel_font.color": "#A6988D",
-	"panel_font.color.selected": "#FFCC99",
-	"panel_font.color.match": "#6DA363",
-	"panel_font.color.match.selected": "#AAFF9A",
+	"panel_font.color.selected": "#FFEE99",
+	"panel_font.color.match": "#61DAF2",
+	"panel_font.color.match.selected": "#FF5242",
 
-	// Scroll bar
+	// input panel, console font
+	"input_font.color": "#FFCC99",
+
+	// scroll bar
 	"scroll_bars.color": "#297080"
 }

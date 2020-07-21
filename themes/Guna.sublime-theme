@@ -2,7 +2,7 @@
 // -----------------------------------------------------------------------------
 // Author : yongchan jeon (Kris) poucotm@gmail.com
 // File   : Guna.sublime-theme
-// Create : 2017-08-18 22:07:31
+// Create : 2020-07-21 23:20:04
 // Editor : sublime text3, tab size (3)
 // -----------------------------------------------------------------------------
 
@@ -1135,17 +1135,19 @@
 	{
 		"class": "quick_panel_label",
 		"fg": [166, 152, 141],
-		"match_fg": [109, 163, 99],
-		"selected_fg": [255, 204, 153],
-		"selected_match_fg": [170, 255, 154]
+		"match_fg": [97, 218, 242],
+		"selected_fg": [255, 238, 153],
+		"selected_match_fg": [255, 82, 66],
+		"font.face": "Segoe UI",
+		"font.size": 14
 	},
 	{
 		"class": "quick_panel_label",
 		"parents": [{"class": "overlay_control"}],
 		"fg": [166, 152, 141],
-		"match_fg": [109, 163, 99],
-		"selected_fg": [255, 204, 153],
-		"selected_match_fg": [170, 255, 154],
+		"match_fg": [97, 218, 242],
+		"selected_fg": [255, 238, 153],
+		"selected_match_fg": [255, 82, 66],
 		"font.face": "Segoe UI",
 		"font.size": 14
 	},
@@ -1329,9 +1331,9 @@
 	{
 		"class": "auto_complete_label",
 		"fg": [166, 152, 141],
-		"match_fg": [109, 163, 99],
-		"selected_fg": [255, 204, 153],
-		"selected_match_fg": [170, 255, 154]
+		"match_fg": [97, 218, 242],
+		"selected_fg": [255, 238, 153],
+		"selected_match_fg": [255, 82, 66]
 	},
 	{
 		"class": "table_row",

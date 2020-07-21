@@ -38,14 +38,23 @@
 	},
 
 	/*  Theme Tweak  ______________________________________________
-		- "tweak_mode" : "adaptive", or "manual"
-		  -> "manual" mode was deprecated (from v1.8.0)
-		  -> To override colors or font faces, use "Preferences > Package Settings > Guna > Dark (Light) theme settings"
-		     Only the input panel background color will be applied when restart once
+	   To override colors or font faces, use "Preferences > Package Settings > Guna > Dark (Light) theme settings"
+	   Only the input panel background color will be applied when restart once
 	*/
 
-	// Only for Guna Color Scheme
+	/*  Guna Color Scheme _________________________________________
+	*/
+
 	"guna_bgcolor": "#161C23", // use "#131B1F" when too bluish
+	// indent guide
+	"guna_guide": "#20272E",
+	"guna_active_guide": "#AAFF9954", // for "indent_guide_options" : "draw_active"
+	// bracket (),{},[]
+	"guna_brackets_options": "foreground", // "foreground", "underline", "stippled_underline", "squiggly_underline"
+	"guna_brackets_color": "#FF0000",
+	// tag <..></..>
+	"guna_tags_options": "foreground", // "foreground", "underline", "stippled_underline", "squiggly_underline"
+	"guna_tags_color": "#FF5242",
 
 	/*  etc.  _____________________________________________________
 	*/

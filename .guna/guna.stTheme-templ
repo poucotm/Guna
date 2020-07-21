@@ -16,9 +16,9 @@
 				<key>background</key>
 				<string>#base-color+2i</string>
 				<key>caret</key>
-				<string>#F29718</string>
+				<string>#FFA352</string>
 				<key>foreground</key>
-				<string>#panel-font-color-sel</string>
+				<string>#input-font-color</string>
 				<key>inactiveSelection</key>
 				<string>#base-color+3i</string>
 				<key>invisibles</key>
