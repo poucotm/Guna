@@ -288,7 +288,7 @@
 
 		{
 			"scope": "source.systemverilog storage.type.module",
-			"foreground": "var(green)",
+			"foreground": "var(yellow)",
 			"font_style": "italic"
 		},
 		{
