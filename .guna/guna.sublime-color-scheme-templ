@@ -14,6 +14,7 @@
 		"lBlue"   : "#61daf2",
 		"rOrange" : "#FF5242",
 		"lOrange" : "#FFD9B2",
+		"tRed"    : "#FF0000",
 		"keyword" : "var(orange)",
 		"function": "var(rOrange)",
 		"constant": "var(blue)",
@@ -319,5 +320,36 @@
 			"foreground": "var(red)",
 			"font_style": ""
 		},
+
+		{
+			"scope": "markup.error.sublime_linter",
+			"foreground": "var(tRed)",
+			"font_style": ""
+		},
+
+		{
+			"scope": "markup.warning.sublime_linter",
+			"foreground": "var(yellow)",
+			"font_style": ""
+		},
+
+		{
+			"scope": "entity.name.filename.sublime_linter",
+			"foreground": "var(lOrange)",
+			"font_style": ""
+		},
+
+		{
+			"scope": "entity.name.label.linter-name.sublime_linter",
+			"foreground": "var(green)",
+			"font_style": ""
+		},
+
+		{
+			"scope": "entity.name.class.error-code.sublime_linter",
+			"foreground": "var(lBlue)",
+			"font_style": ""
+		},
+
 	]
 }
