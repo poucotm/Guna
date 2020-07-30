@@ -26,8 +26,6 @@ __Weather__ : The weather widget has been added (from v1.4.0). The widget uses [
 
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-weather.png)
 
-
-
 ### Adaptive Theme
 
 Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color-schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once only for the input panel's background change. In order to override colors and font faces, use __*Preferences > Package Settings > Guna > Dark (Light) theme settings*__.
@@ -35,6 +33,10 @@ Guna automatically tweaks theme colors to match selected other color-scheme. Bas
 __*Adaptive Theme Testing Shot*__
 
 [![Image of Guna][S5]][S5]
+
+### Syntax Color Scheme
+
+[__Python__][L12], [__Java__][L13], [__C++__][L14], [__Systemverilog__][L15], [__Html__][L16], [__Markdown__][L17], [__Yaml__][L18], ...
 
 ### API
 
@@ -89,5 +91,12 @@ Guna is licensed under a [Creative Commons Attribution-NonCommercial 4.0 Interna
 [L9]:https://github.com/poucotm/Guna/blob/master/themes/preset/theme-settings.md
 [L10]:https://github.com/poucotm/Guna/blob/master/README-API.md "Guna API"
 [L11]:https://github.com/poucotm/Guna/blob/master/themes/preset/Guna-dark.sublime-settings "Guna Dark(Light) theme Settings"
+[L12]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/python.png
+[L13]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/java.png
+[L14]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/cpp.png
+[L15]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/systemverilog.png
+[L16]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/html.png
+[L17]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/markdown.png
+[L18]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/yaml.png
 [PP]:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=89YVNDSC7DZHQ "PayPal"
 [PM]:https://www.paypal.me/poucotm/1.0 "PayPal"
