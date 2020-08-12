@@ -674,7 +674,7 @@
 
 	{
 		"class": "sidebar_button_control",
-		"content_margin": [12, 8],
+		"content_margin": #scale2-01 [12, 8],
 		"layer0.texture": "Guna/assets/simple/status-bar/switch-panel.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1
