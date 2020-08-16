@@ -28,7 +28,7 @@ __Weather__ : The weather widget has been added (from v1.4.0). The widget uses [
 
 ### Adaptive Theme
 
-Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color-schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once only for the input panel's background change. In order to override colors and font faces, use __*Preferences > Package Settings > Guna > Dark (Light) theme settings*__.
+Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color-schemes, like Monokai, Mariana, Ayu, ... Some examples are below. In order to override colors and font faces, use __*Preferences > Package Settings > Guna > Dark (Light) theme settings*__.
 
 __*Adaptive Theme Testing Shot*__
 
@@ -56,6 +56,7 @@ Please, refer to [__Guna's API__][L10]
 {
 	"scale": 1.5, // control sizes of buttons, file icons, tab ...
 	"widget_scale": 1.33, // control sizes of clock, weather widget ...
+	"switch_icon_scale": 1, // control the size of switch panel icon
 }
 ```
 

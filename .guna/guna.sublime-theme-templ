@@ -10,14 +10,14 @@
 
 	{
 		"class" : "sheet_container_control",
-		"layer0.tint" : #base-color,
+		"layer0.tint" : "var(--background)",
 		"layer0.opacity" : 1
 	},
 
 	{
 		"class": "grid_layout_control",
 		"border_size": 1,
-		"border_color": #base-color+3
+		"border_color": #base-color+4i
 	},
 
 	{
@@ -154,11 +154,11 @@
 
 	{
 		"class": "sidebar_container",
-		"layer0.texture": "Guna/assets/simple/sidebar/sidebar-bg-clock@wscale.png",
+		"layer0.texture": "Guna/assets/simple/sidebar/sidebar-bg-clock-nb@wscale.png",
 		#wscale-@1x"layer0.inner_margin": [15, 55, 15, 0],
 		#wscale-@1.33x"layer0.inner_margin": [15, 70, 15, 0],
 		#wscale-@1.8x"layer0.inner_margin": [15, 92, 15, 0],
-		"layer0.tint": #base-color+x,
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1,
 		#wscale-@1x"content_margin": [0, 45, 0, 0],
 		#wscale-@1.33x"content_margin": [0, 60, 0, 0],
@@ -167,9 +167,9 @@
 	{
 		"class": "sidebar_container",
 		"settings": ["gnwidgx"],
-		"layer0.texture": "Guna/assets/simple/sidebar/sidebar-bg.png",
+		"layer0.texture": "Guna/assets/simple/sidebar/sidebar-bg-nb.png",
 		"layer0.inner_margin": [15, 55, 15, 0],
-		"layer0.tint": #base-color+x,
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1,
 		"content_margin": [0, 0, 0, 0]
 	},
@@ -219,7 +219,7 @@
 	},
 	{
 		"class": "sidebar_heading",
-		"color": #base-color,
+		"color": "color(var(--background))",
 		"font.face": #sidebar-font-face,
 		"font.bold": false,
 		"font.size": #sidebar-font-size+2
@@ -305,7 +305,7 @@
 	{
 		"class": "icon_folder",
 		"content_margin": #scale2-01 [8, 8],
-		"layer0.tint": #base-color,
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 0,
 		"layer1.texture": "Guna/assets/simple/sidebar/folder/folder.png",
 		"layer1.tint": #icon-color,
@@ -404,7 +404,7 @@
 	{
 		"class": "close_button",
 		"content_margin": [0, 0],
-		"layer0.tint": #base-color,
+		"layer0.tint": "color(var(--background))",
 		"layer0.texture": "",
 		"layer0.opacity": 0,
 		"layer0.inner_margin": [0, 0]
@@ -431,56 +431,44 @@
 		"tab_overlap": 0,
 		"tab_width": 120,
 		"tab_min_width": 120,
-		"tab_height": #scale1 55,
+		"tab_height": #scale1 55-8,
 		"mouse_wheel_switch": false,
-		"layer0.tint": #base-color-1,
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1,
 		"content_margin": [0, 0]
 	},
 	{
 		"class": "tabset_control",
 		"layer1.texture": "Guna/assets/simple/tab/tab-bg0.png",
-		"layer1.inner_margin": [8, 0, 0, 0],
-		"layer1.tint": #base-color,
+		"layer1.inner_margin": [8, 8, 0, 10],
+		"layer1.tint": "color(var(--background)",
 		"layer1.opacity": 1,
-		"layer2.texture": "Guna/assets/simple/tab/tab-bg1.png",
-		"layer2.inner_margin": [8, 0, 0, 0],
-		"layer2.tint": #base-color+1,
-		"layer2.opacity": #tab-bg1-opacity,
 	},
 	{
 		"class": "tab_control",
-		"layer0.tint": #base-color-1,
+		"layer0.tint": "color(var(--background)",
 		"layer0.opacity": 1,
 		"layer1.texture": "Guna/assets/simple/tab/tab0.png",
-		"layer1.inner_margin": [1, 0, 1, 0],
-		"layer1.tint": #base-color,
+		"layer1.inner_margin": [1, 0, 1, 10],
+		"layer1.tint": "color(var(--background))",
 		"layer1.opacity": 1,
-		"layer2.texture": "Guna/assets/simple/tab/tab1.png",
-		"layer2.inner_margin": [1, 0, 1, 0],
-		"layer2.tint": #base-color+1,
-		"layer2.opacity": #tab1-opacity,
-		"layer3.texture": "Guna/assets/simple/tab/tab2.png",
-		"layer3.inner_margin": [1, 0, 1, 0],
-		"layer3.tint": #base-color+1,
-		"layer3.opacity": 1,
+		"layer2.texture": "Guna/assets/simple/tab/tab2.png",
+		"layer2.inner_margin": [1, 0, 1, 10],
+		"layer2.tint": "color(var(--background) l(+ 8%))",
+		"layer2.opacity": 1,
 		"content_margin": [10, -8, 10, 0],
 		"max_margin_trim": 16
 	},
 	{
 		"class": "tab_control", "attributes": ["selected"],
 		"layer1.texture": "Guna/assets/simple/tab/tab-sel0.png",
-		"layer1.inner_margin": [8, 0, 12, 0],
-		"layer1.tint": #base-color,
+		"layer1.inner_margin": [8, 8, 12, 10],
+		"layer1.tint": "color(var(--background))",
 		"layer1.opacity": 1,
-		"layer2.texture": "Guna/assets/simple/tab/tab-sel1.png",
-		"layer2.inner_margin": [8, 0, 12, 0],
-		"layer2.tint": #base-color+1,
-		"layer2.opacity": #tab-sel1-opacity,
-		"layer3.texture": "Guna/assets/simple/tab/tab-sel2.png",
-		"layer3.inner_margin": [8, 0, 12, 0],
-		"layer3.tint": #icon-color-selected,
-		"layer3.opacity": 1,
+		"layer2.texture": "Guna/assets/simple/tab/tab-sel2.png",
+		"layer2.inner_margin": [8, 8, 12, 10],
+		"layer2.tint": #icon-color-selected,
+		"layer2.opacity": 1,
 	},
 	{
 		"class": "tab_control", "attributes": ["hover"]
@@ -641,12 +629,10 @@
 	},
 	{
 		"class": "status_bar",
-		"layer0.tint": #base-color-1,
+		"layer0.texture": "Guna/assets/simple/status-bar/status-bar-bg.png",
+		"layer0.inner_margin": [10, 0, 0, 0],
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1,
-		"layer1.texture": "Guna/assets/simple/status-bar/status-bar-bg.png",
-		"layer1.inner_margin": [10, 0, 0, 0],
-		"layer1.tint": #base-color+1,
-		"layer1.opacity": 1,
 		"content_margin": [5, 2, 20, 0]
 	},
 	{
@@ -656,7 +642,7 @@
 	},
 	{
 		"class": "panel_button_control",
-		"content_margin": #scale2-01 [12, 8],
+		"content_margin": #switch-scale2-01 [12, 8],
 		"layer0.texture": "Guna/assets/simple/status-bar/switch-panel.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1
@@ -674,7 +660,7 @@
 
 	{
 		"class": "sidebar_button_control",
-		"content_margin": #scale2-01 [12, 8],
+		"content_margin": #switch-scale2-01 [12, 8],
 		"layer0.texture": "Guna/assets/simple/status-bar/switch-panel.png",
 		"layer0.tint": #icon-color,
 		"layer0.opacity": 1
@@ -713,20 +699,16 @@
 
 	{
 		"class": "panel_control",
-		"layer0.tint": #base-color-1,
+		"layer0.tint": "color(var(--background)",
 		"layer0.opacity": 1,
 		"layer1.texture": "Guna/assets/simple/widget/widget-bg0.png",
 		"layer1.inner_margin": [6, 1, 2, 1],
-		"layer1.tint": #base-color,
+		"layer1.tint": "color(var(--background))",
 		"layer1.opacity": 1,
-		"layer2.texture": "Guna/assets/simple/widget/widget-bg1.png",
+		"layer2.texture": "Guna/assets/simple/widget/widget-bg2.png",
 		"layer2.inner_margin": [6, 1, 2, 1],
-		"layer2.tint": #base-color+1,
+		"layer2.tint": #base-color+4i,
 		"layer2.opacity": 1,
-		"layer3.texture": "Guna/assets/simple/widget/widget-bg2.png",
-		"layer3.inner_margin": [6, 1, 2, 1],
-		"layer3.tint": #base-color+3i,
-		"layer3.opacity": 1,
 		"content_margin": [5, 0, 0, 5]
 	},
 	{
@@ -918,20 +900,20 @@
 		"layer0.texture": "Guna/assets/simple/overlay/overlay-bg-shadow.png",
 		"layer0.inner_margin": [25, 45, 25, 35],
 		"layer0.opacity": 1,
-		"layer0.tint": #base-color-4,
+		"layer0.tint": #overlay-shadow,
 		"layer1.texture": "Guna/assets/simple/overlay/overlay-bg.png",
 		"layer1.inner_margin": [25, 45, 25, 35],
 		"layer1.opacity": 1,
-		"layer1.tint": #base-color+2,
+		"layer1.tint": "color(var(--background) l(+ 2%))",
 		"layer2.texture": "Guna/assets/simple/overlay/overlay-bd.png",
 		"layer2.inner_margin": [25, 45, 25, 35],
 		"layer2.opacity": 1,
-		"layer2.tint": #base-color+3,
+		"layer2.tint": "color(var(--background) l(+ 4%))",
 		"content_margin": [24, 45, 24, 35]
 	},
 	{
 		"class": "mini_quick_panel_row",
-		"layer0.tint": #base-color+2,
+		"layer0.tint": "color(var(--background) l(+ 2%))",
 		"layer0.inner_margin": [2, 2, 2, 2],
 		"layer0.opacity": 1
 	},
@@ -944,7 +926,7 @@
 	{
 		"class": "quick_panel",
 		"row_padding": [20, 5],
-		"layer0.tint": #base-color+2,
+		"layer0.tint": "color(var(--background) l(+ 2%))",
 		"layer0.opacity": 1
 	},
 	{
@@ -962,14 +944,14 @@
 	{
 		"class": "quick_panel_row",
 		"layer0.texture": "",
-		"layer0.tint": #base-color+2,
+		"layer0.tint": "color(var(--background) l(+ 2%))",
 		"layer0.inner_margin": 0,
 		"layer0.opacity": 1
 	},
 	{
 		"class": "quick_panel_row",
 		"parents": [{"class": "overlay_control"}],
-		"layer0.tint": #base-color+2,
+		"layer0.tint": "color(var(--background) l(+ 2%))",
 		"layer0.opacity": 1
 	},
 	{
@@ -998,24 +980,30 @@
 	},
 	{
 		"class": "quick_panel_path_label",
-		"fg": [140, 140, 140],
-		"match_fg": [109, 163, 99],
-		"selected_fg": [225, 225, 225],
-		"selected_match_fg": [170, 255, 154],
+
+		"fg": #panel-path-color,
+
+		"match_fg": #panel-path-color-match,
+
+		"selected_fg": #panel-path-color-sel,
+
+		"selected_match_fg": #panel-path-color-sel-match,
 		"font.face": #panel-font-face,
 		"font.size": #panel-font-size-2
 	},
 	{
 		"class": "quick_panel_score_label",
-		"fg": [140, 140, 140],
-		"selected_fg": [170, 255, 154],
+
+		"fg": #panel-path-color,
+
+		"selected_fg": #panel-path-color-sel,
 		"font.face": #panel-font-face,
 		"font.size": #panel-font-size
 	},
 
 	{
 		"class": "scroll_bar_control",
-		"layer0.tint": #base-color,
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1,
 		"blur": false
 	},
@@ -1037,7 +1025,7 @@
 	{
 		"class": "scroll_bar_control",
 		"attributes": ["horizontal"],
-		"layer0.tint": #base-color,
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1,
 		"blur": false
 	},
@@ -1059,22 +1047,22 @@
 	},
 	{
 		"class": "scroll_corner_control",
-		"layer0.tint": #base-color,
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1
 	},
 	{
 		"class": "scroll_bar_control",
 		"parents": [{"class": "sidebar_container"}],
-		"layer0.tint": #base-color-1,
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1,
 		"layer1.texture": "Guna/assets/simple/scroll-bar/scroll-bar-v-sbg0.png",
 		"layer1.opacity": 1,
 		"layer1.inner_margin": [0, 10],
-		"layer1.tint": #base-color,
+		"layer1.tint": "color(var(--background))",
 		"layer2.texture": "Guna/assets/simple/scroll-bar/scroll-bar-v-sbg1.png",
 		"layer2.opacity": 1,
 		"layer2.inner_margin": [0, 10],
-		"layer2.tint": #base-color+1,
+		"layer2.tint": "color(var(--background) l(+ 2%))",
 		"blur": false
 	},
 	{
@@ -1098,7 +1086,7 @@
 		"class": "scroll_bar_control",
 		"parents": [{"class": "sidebar_container"}],
 		"attributes": ["horizontal"],
-		"layer0.tint": #base-color,
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1,
 		"blur": false
 	},
@@ -1123,17 +1111,17 @@
 	{
 		"class": "scroll_corner_control",
 		"parents": [{"class": "sidebar_container"}],
-		"layer0.tint": #base-color,
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1,
 		"layer1.texture": "Guna/assets/simple/scroll-bar/scroll-bar-scn.png",
 		"layer1.inner_margin": [0, 1],
-		"layer1.tint": #base-color,
+		"layer1.tint": "color(var(--background))",
 		"layer1.opacity": 1
 	},
 	{
 		"class": "scroll_bar_control",
 		"parents": [{"class": "overlay_control"}],
-		"layer0.tint": #base-color+2,
+		"layer0.tint": "color(var(--background) l(+ 2%))",
 		"blur": false
 	},
 	{
@@ -1193,7 +1181,7 @@
 
 	{
 		"class": "tool_tip_control",
-		"layer0.tint": #base-color,
+		"layer0.tint": "color(var(--background))",
 		"layer0.inner_margin": [0, 0],
 		"layer0.opacity": 1,
 		"content_margin": [10, 6]
@@ -1214,7 +1202,7 @@
 
 	{
 		"class": "dialog",
-		"layer0.tint": #base-color,
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1
 	},
 	{

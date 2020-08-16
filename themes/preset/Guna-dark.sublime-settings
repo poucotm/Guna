@@ -5,6 +5,9 @@
 	// widget_scale : 1 or 1.33 or 1.8
 	"widget_scale": 1,
 
+	// switch_icon_scale - to apply (base scale) x (icon scale)
+	"switch_icon_scale": 1,
+
 	// clock
 	"clock.color": "#FFCC67",
 	"clock.color.dirty": "#FF3377",
@@ -45,16 +48,23 @@
 	"status_bar_font.color": "#0095B3",
 
 	// panel font
-	"panel_font.face": "Segoe UI",
+	"panel_font.face": "system",
 	"panel_font.size": 14,
-	"panel_font.color": "#A6988D",
+	"panel_font.color": "#B3B3B3",
 	"panel_font.color.selected": "#FFEE99",
-	"panel_font.color.match": "#61DAF2",
-	"panel_font.color.match.selected": "#FF5242",
+	"panel_font.color.match": "#D9D9D9",
+	"panel_font.color.match.selected": "#AAFF99",
+	"panel_path.color": "#8C8C8C",
+	"panel_path.color.selected": "#E5E5E5",
+	"panel_path.color.match": "#D9D9D9",
+	"panel_path.color.match.selected": "#00B5D9",
 
 	// input panel, console font
 	"input_font.color": "#FFCC99",
 
 	// scroll bar
-	"scroll_bars.color": "#297080"
+	"scroll_bars.color": "#297080",
+
+	// overlay panel shadow percent
+	"overlay_shadow": 4
 }

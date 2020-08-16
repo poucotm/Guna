@@ -27,7 +27,7 @@
 		"invisibles": "var(rOrange)",
 		"caret": "var(orange)",
 		"block_caret": "var(orange)",
-		"line_highlight": "#base-color+3",
+		"line_highlight": "color(var(bgcolor) l(+ 4%))",
 		"gutter": "var(bgcolor)",
 		"gutter_foreground": "#515F66",
 		"selection": "#3A5166",

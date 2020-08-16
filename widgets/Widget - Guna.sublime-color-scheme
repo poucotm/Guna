@@ -1,0 +1,23 @@
+{
+	"name"     : "Guna",
+	"author"   : "poucotm",
+	"variables": {
+		"bgcolor": "#161C23"
+	},
+	"globals": {
+		"background": "color(var(bgcolor) l(+ 4%))",
+		"foreground": "#FFCC99",
+		"invisibles": "#343434",
+		"caret": "#FFA352",
+		"line_highlight": "#283240",
+		"selection": "color(var(bgcolor) l(+ 10%))",
+		"selection_border": "color(var(bgcolor) l(+ 10%))"
+	},
+	"rules": [
+		{
+			"scope": "invalid",
+			"background": "#FF337700",
+			"foreground": "color(var(bgcolor) l(+ 4%))"
+		}
+	]
+}
