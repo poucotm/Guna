@@ -4,6 +4,6 @@
   // do not set here, use parent's option
   // "font_options": ["subpixel_antialias", "gray_antialias", "directwrite"],
   // "font_size": 10,
-  "line_padding_top": 4,
+  "line_padding_top": 2,
   "line_padding_bottom": 0
 }
