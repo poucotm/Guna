@@ -132,7 +132,7 @@
 		"layer1.opacity": 1,
 		"layer1.tint": [255, 204, 103],
 		"layer1.inner_margin": [32, 32, 0, 0],
-		"content_margin": [40, 6, 10, 4]
+		"content_margin": [40, 6, 10, 6]
 	},
 	{
 		"class": "dropdown_button_control",

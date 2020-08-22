@@ -134,7 +134,7 @@
 		#sscale-@1x"layer1.inner_margin": [32, 32, 0, 0],
 		#sscale-@1.5x"layer1.inner_margin": [48, 48, 0, 0],
 		#sscale-@2x"layer1.inner_margin": [64, 64, 0, 0],
-		#sscale-@1x"content_margin": [40, 6, 10, 4],
+		#sscale-@1x"content_margin": [40, 6, 10, 6],
 		#sscale-@1.5x"content_margin": [60, 14, 10, 14],
 		#sscale-@2x"content_margin": [80, 24, 10, 24],
 	},
