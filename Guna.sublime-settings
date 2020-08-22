@@ -25,13 +25,16 @@
 	// Show/Hide sidebar heading
 	"sidebar_head": false,
 
+	// Match Title Bar Color (OSX)
+	"title_bar_color": true,
+
 	/*  Weather : openweathermap.org  _____________________________
 	   - You have to get an APPID to get weather information
 	   - fill one of city name
 	*/
 
 	"weather": {
-		"appid": "",      // - http://openweathermap.org/appid
+		"appid": "",      // - get from http://openweathermap.org/appid
 		"city_name": "",  // - city name, country code e.g) seoul,KR
 		"geographic": {}, // - geographic coordinate (alternative) e.g) {"lat":35, "lon":139}
 		"proxy": "",      // - http proxy e.g) 10.75.97.11:8080 - if needed

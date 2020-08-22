@@ -9,6 +9,13 @@
 [
 
 	{
+		"class": "title_bar",
+		"settings": ["gn_title_bar"],
+		"bg": "var(--background)",
+		"fg": "var(--foreground)"
+	},
+
+	{
 		"class" : "sheet_container_control",
 		"layer0.tint" : "var(--background)",
 		"layer0.opacity" : 1
@@ -1207,10 +1214,6 @@
 		"layer1.opacity": 1,
 		"layer1.inner_margin": [0, 10],
 		"layer1.tint": "color(var(--background))",
-		"layer2.texture": "Guna/assets/simple/scroll-bar/scroll-bar-v-sbg1.png",
-		"layer2.opacity": 1,
-		"layer2.inner_margin": [0, 10],
-		"layer2.tint": "color(var(--background) l(+ 2%))",
 		"blur": false
 	},
 	{

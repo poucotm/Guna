@@ -11,7 +11,7 @@ Simply, run __*Guna*__ in __*command palette*__ (*cmd/ctrl+shift+p*). In case th
 
 ### Fonts
 
-Guna uses [__Dejavu Sans__][L1] as default font for UI and [Roboto Condensed][L2] is used only for status bar. But you can change them in the theme-tweak settings as you want. The editor font is [Meslo][L5] in screenshots above.
+Guna uses [__Dejavu Sans__][L1] as default font for UI and [__Roboto Condensed__][L2] is used only for status bar. But you can change them in the theme-tweak settings as you want. The editor font is __Menlo__ ([__Meslo__][L5]) in screenshots above.
 
 ### Widgets
 
@@ -50,6 +50,8 @@ If you want to see the example, simply type __*raise*__ in Sublime console.
 Please, refer to [__Guna's API__][L10]
 
 ### UI Scaling
+
+Guna supports __HiDPI__ with ui scaling.  
 
 [__Guna theme settings__][L11]
 ```
