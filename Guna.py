@@ -55,7 +55,8 @@ def plugin_loaded():
             # engine start
             engine.start()
             # show `Read Me` @ first
-            # sublime.active_window().run_command('guna_readme')
+            if events.install('Guna'):
+                sublime.active_window().run_command('guna_readme')
 
         sublime.set_timeout_async(installed, 1000)
     else:

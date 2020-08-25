@@ -28,7 +28,7 @@ Guna is most innovative theme for sublime text 3. It supports various functions 
 </p>
 
 <div class='head3'>Theme Activation</div>
-<p>Simply, run <strong><i>Guna</i></strong> in <strong><i>command palette</i></strong> (<i>cmd/ctrl+shift+p</i>). You don't need to edit <strong><i>theme</i></strong> and <strong><i>color_scheme</i></strong> directly in settings. I recommend that you select <strong><i>View &gt; Side Bar &gt; Hide Open Files</i></strong> for better view. When Guna removed, it automatically restores theme and color scheme as the last before activating Guna. Guna supports <a href="https://packagecontrol.io/packages/SublimeLinter" title="SublimeLinter">SublimeLinter</a> not to override color-scheme.</p>
+<p>Simply, run <strong><i>Guna</i></strong> in <strong><i>command palette</i></strong> (<i>cmd/ctrl+shift+p</i>). You don't need to edit <strong><i>theme</i></strong> and <strong><i>color_scheme</i></strong> directly in settings. I recommend that you select <strong><i>View &gt; Side Bar &gt; Hide Open Files</i></strong> for better view. When Guna removed, it automatically restores theme and color scheme as the last before activating Guna.</p>
 
 <div class='head3'>Fonts</div>
 <p>Guna uses <a href="https://dejavu-fonts.github.io/" title="Dejavu Sans"><strong>Dejavu Sans</strong></a> as default font for UI and <a href="https://fonts.google.com/specimen/Roboto" title="Roboto Family">Roboto Condensed</a> is used only for status bar. But you can change them in the theme-tweak settings as you want.
@@ -51,38 +51,22 @@ Guna is most innovative theme for sublime text 3. It supports various functions 
 
 <div class='head3'>Adaptive Theme</div>
 <p>
-Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color-schemes, like Monokai, Mariana, Ayu, ... Some examples are below. You need to restart once only for the input panel's background change. In order to override colors and font faces, use <strong><i>Preferences > Package Settings > Guna > Dark (Light) theme settings.</i></strong>
+Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color-schemes, like Monokai, Mariana, Ayu, ... In order to override colors and font faces, use <strong><i>Preferences > Package Settings > Guna > Dark (Light) theme settings.</i></strong>
 </p>
 
 
 <div class='head3'>UI Scaling</div>
 <br>
+Guna supports HiDPI with ui scaling.
+<br><br>
 <div class="code">
 {<br>
 &nbsp; &nbsp; "scale": 1.5, // control sizes of buttons, file icons, tab ... <br>
 &nbsp; &nbsp; &nbsp;"widget_scale": 1.33, // control sizes of clock, weather widget ... <br>
+&nbsp; &nbsp; &nbsp;"switch_icon_scale": 1, // ccontrol the size of switch panel icon ... <br>
 }
 </div>
 <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class='head3'>Key Map</div>
-<p><strong><i>f5</i></strong>(Windows/Linux), <strong><i>alt+f5</i></strong>(OSX) are assigned for refresh folder list in side bar.</p>
 
 <div class='head3'>API</div>
 <p>You can control Guna's screen through Guna's APIs. Currently, there are two functions for displaying alert situation. If you want to see the example, simply type <strong><i>raise</i></strong> in Sublime console.

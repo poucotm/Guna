@@ -62,6 +62,9 @@
 	/*  etc.  _____________________________________________________
 	*/
 
+	// automatically check and set 'gpu_window_buffer' as false for OSX to prevent screen flickering
+	"gpu_window_buffer_false": true,
+
 	// Always start with full screen mode, hiding menu bar
 	// You can toggle by using 'ctrl+f11' (Windows/Linux), 'cmd+ctrl+f11' (OSX)
 	"full_screen_on_start": false
