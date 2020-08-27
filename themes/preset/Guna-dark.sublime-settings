@@ -50,13 +50,13 @@
 	// panel font
 	"panel_font.face": "system",
 	"panel_font.size": 14,
-	"panel_font.color": "#CCCCCC",
+	"panel_font.color": "#B3B3B3",
 	"panel_font.color.selected": "#FFEE99",
-	"panel_font.color.match": "#E5E5E5",
+	"panel_font.color.match": "#D9D9D9",
 	"panel_font.color.match.selected": "#AAFF99",
-	"panel_path.color": "#999999",
-	"panel_path.color.selected": "#F2F2F2",
-	"panel_path.color.match": "#E5E5E5",
+	"panel_path.color": "#8C8C8C",
+	"panel_path.color.selected": "#E5E5E5",
+	"panel_path.color.match": "#D9D9D9",
 	"panel_path.color.match.selected": "#00B5D9",
 
 	// input panel, console font
