@@ -1,5 +1,5 @@
 
-- `dropdown.png`, `regex.png`, `matchcase.png`, `highlight.png` designed by [Freepik](http://www.freepik.com/)
+- `dropdown.png`, `regex.png`, `matchcase.png`, `highlight.png`, `gitignore` designed by [Freepik](http://www.freepik.com/)
  from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
 - `context.png`, `word.png` designed by [Smartline](https://www.flaticon.com/authors/smartline)
  from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)

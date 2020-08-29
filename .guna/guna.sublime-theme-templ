@@ -907,6 +907,24 @@
 	},
 
 	{
+		"class": "icon_use_gitignore",
+		"layer0.texture": "Guna/assets/simple/widget/button/gitignore.png",
+		"layer0.tint": #icon-color,
+		"layer0.opacity": 1,
+		"content_margin": #scale2-01 [10, 10]
+	},
+	{
+		"class": "icon_use_gitignore",
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": #icon-color-selected
+	},
+	{
+		"class": "icon_use_gitignore",
+		"parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
+		"layer0.tint": #icon-color-pressed
+	},
+
+	{
 		"class": "overlay_control",
 		"layer0.texture": "Guna/assets/simple/overlay/overlay-bg-shadow.png",
 		"layer0.inner_margin": [25, 45, 25, 35],
@@ -1154,6 +1172,37 @@
 		"class": "fold_button_control",
 		"attributes": ["expanded"],
 		"layer0.texture": "Guna/assets/simple/editor/unfold.png"
+	},
+
+	{
+		"class": "popup_shadow",
+		"settings": ["popup_shadows"],
+		"platforms": ["linux"],
+		"layer0.texture": "Theme - Default/common/linux_shadow.png",
+		"layer0.inner_margin": [24, 20, 24, 28],
+		"layer0.draw_center": false,
+		"layer0.opacity": 1.0,
+		"content_margin": [24, 20, 24, 28]
+	},
+	{
+		"class": "popup_shadow",
+		"settings": ["popup_shadows"],
+		"platforms": ["osx"],
+		"layer0.texture": "Theme - Default/common/mac_shadow.png",
+		"layer0.inner_margin": [24, 20, 24, 28],
+		"layer0.draw_center": false,
+		"layer0.opacity": 1.0,
+		"content_margin": [24, 20, 24, 28]
+	},
+	{
+		"class": "popup_shadow",
+		"settings": ["popup_shadows"],
+		"platforms": ["windows"],
+		"layer0.texture": "Theme - Default/common/windows_shadow.png",
+		"layer0.inner_margin": [15, 14, 15, 16],
+		"layer0.draw_center": false,
+		"layer0.opacity": 1.0,
+		"content_margin": [15, 14, 15, 16]
 	},
 
 	{

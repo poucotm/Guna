@@ -620,6 +620,12 @@
 		"content_margin": [10, -8, 10, 0],
 		"max_margin_trim": 16
 	},
+
+	{
+		"class": "tab_control",
+		"settings": ["show_tab_close_buttons_on_left"],
+		"close_button_side": "left"
+	},
 	{
 		"class": "tab_control", "attributes": ["selected"],
 		"layer1.texture": "Guna/assets/simple/tab/tab-sel0.png",
@@ -1057,6 +1063,24 @@
 	},
 
 	{
+		"class": "icon_use_gitignore",
+		"layer0.texture": "Guna/assets/simple/widget/button/gitignore.png",
+		"layer0.tint": [71, 86, 102],
+		"layer0.opacity": 1,
+		"content_margin": [10, 10]
+	},
+	{
+		"class": "icon_use_gitignore",
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [255, 204, 103]
+	},
+	{
+		"class": "icon_use_gitignore",
+		"parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
+		"layer0.tint": [255, 85, 0]
+	},
+
+	{
 		"class": "overlay_control",
 		"layer0.texture": "Guna/assets/simple/overlay/overlay-bg-shadow.png",
 		"layer0.inner_margin": [25, 45, 25, 35],
@@ -1328,6 +1352,37 @@
 		"class": "table_row",
 		"attributes": ["selected"],
 		"layer0.opacity": 1
+	},
+
+	{
+		"class": "popup_shadow",
+		"settings": ["popup_shadows"],
+		"platforms": ["linux"],
+		"layer0.texture": "Theme - Default/common/linux_shadow.png",
+		"layer0.inner_margin": [24, 20, 24, 28],
+		"layer0.draw_center": false,
+		"layer0.opacity": 1.0,
+		"content_margin": [24, 20, 24, 28]
+	},
+	{
+		"class": "popup_shadow",
+		"settings": ["popup_shadows"],
+		"platforms": ["osx"],
+		"layer0.texture": "Theme - Default/common/mac_shadow.png",
+		"layer0.inner_margin": [24, 20, 24, 28],
+		"layer0.draw_center": false,
+		"layer0.opacity": 1.0,
+		"content_margin": [24, 20, 24, 28]
+	},
+	{
+		"class": "popup_shadow",
+		"settings": ["popup_shadows"],
+		"platforms": ["windows"],
+		"layer0.texture": "Theme - Default/common/windows_shadow.png",
+		"layer0.inner_margin": [15, 14, 15, 16],
+		"layer0.draw_center": false,
+		"layer0.opacity": 1.0,
+		"content_margin": [15, 14, 15, 16]
 	},
 
 	{
