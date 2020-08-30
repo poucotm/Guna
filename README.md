@@ -28,7 +28,7 @@ __Weather__ : The weather widget has been added (from v1.4.0). The widget uses [
 
 ### Adaptive Theme
 
-Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color-schemes, like Monokai, Mariana, Ayu, ... Some examples are below. In order to override colors and font faces, use __*Preferences > Package Settings > Guna > Dark (Light) theme settings*__.
+Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color-schemes, like Monokai, Mariana, Ayu, ... Some examples are below. Guna also supports an easy way to __customize theme colors and fonts__. In order to override colors and font faces, use __*Preferences > Package Settings > Guna > Dark (Light) theme settings*__ ([__Guna theme settings__][L11]).
 
 __*Adaptive Theme Testing Shot*__
 
@@ -51,9 +51,8 @@ Please, refer to [__Guna's API__][L10]
 
 ### UI Scaling
 
-Guna supports __HiDPI__ with ui scaling.  
+Guna supports __HiDPI__ with ui scaling. [__Guna theme settings__][L11]
 
-[__Guna theme settings__][L11]
 ```
 {
 	"scale": 1.5, // control sizes of buttons, file icons, tab ...

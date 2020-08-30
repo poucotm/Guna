@@ -17,7 +17,7 @@
 	"overlay_scroll_bars": true,
 
 	// Scroll-bars Type
-	"scroll_bars_convex": true,
+	"scroll_bars_convex": false,
 
 	// Use selected box in sidebar
 	"sidebar_selected_box": true,

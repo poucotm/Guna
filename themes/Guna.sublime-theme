@@ -1236,7 +1236,7 @@
 		"layer0.opacity": 1,
 		"layer1.texture": "Guna/assets/simple/scroll-bar/scroll-bar-v-sbg0.png",
 		"layer1.opacity": 1,
-		"layer1.inner_margin": [0, 10],
+		"layer1.inner_margin": [0, 10, 5, 10],
 		"layer1.tint": "color(var(--background))",
 		"blur": false
 	},
