@@ -1,7 +1,7 @@
 {
 	"Guna": {
 		"Preferences": {
-			"color_scheme": "Packages/Guna/themes/Guna.tmTheme",
+			"color_scheme": "Packages/Guna/themes/Guna.sublime-color-scheme",
 			"theme": "Guna.sublime-theme",
 		}
 	}

@@ -3,7 +3,7 @@
 	*/
 
 	// Select the sidebar widget [], ["clock"], ["date"], ["weather"], ["clock", "weather", "date"], ...
-	// Widget switching is possible by using 'shift+esc'
+	// Widget switching is possible with 'shift+esc'
 	"sidebar_widget": ["clock"],
 	"sidebar_widget_clock_mode": "24h",
 
@@ -40,22 +40,18 @@
 		"proxy": "",      // - http proxy e.g) 10.75.97.11:8080 - if needed
 	},
 
-	/*  Theme Tweak  ______________________________________________
-	   To override colors or font faces, use "Preferences > Package Settings > Guna > Dark (Light) theme settings"
-	   Only the input panel background color will be applied when restart once
-	*/
-
 	/*  Guna Color Scheme _________________________________________
 	*/
 
+	// background color
 	"guna_bgcolor": "#161C23", // use "#131B1F" when too bluish
 	// indent guide
 	"guna_guide": "#20272E",
 	"guna_active_guide": "#AAFF9954", // for "indent_guide_options" : "draw_active"
-	// bracket (),{},[]
+	// highlight bracket (),{},[]
 	"guna_brackets_options": "foreground", // "foreground", "underline", "stippled_underline", "squiggly_underline"
 	"guna_brackets_color": "#FF0000",
-	// tag <..></..>
+	// highlight tag <..></..>
 	"guna_tags_options": "foreground", // "foreground", "underline", "stippled_underline", "squiggly_underline"
 	"guna_tags_color": "#FF5242",
 
