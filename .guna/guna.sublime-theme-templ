@@ -464,15 +464,18 @@
 		"layer1.tint": "color(var(--background))",
 		"layer1.opacity": 1,
 		"layer2.texture": "Guna/assets/simple/tab/tab2.png",
-		"layer2.inner_margin": [4, 15, 4, 10],
-		"layer2.tint": "color(var(--background) l(+ 8%))",
+		"layer2.inner_margin": [4, 15, 8, 10],
+		#dark-"layer2.tint": "color(var(--background) l(+ 8%))",
+		#light-"layer2.tint": "color(var(--background))",
 		"layer2.opacity": #tab-opacity,
-		"layer3.texture": "Guna/assets/simple/tab/tab3.png",
-		"layer3.inner_margin": [1, 0, 1, 10],
-		"layer3.tint": "color(var(--background) l(+ 8%))",
-		"layer3.opacity": #tab-delimiter-opacity,
 		"content_margin": [10, -8, 10, 0],
 		"max_margin_trim": 16
+	},
+
+	{
+		"class": "tab_control",
+		"settings": ["show_tab_close_buttons_on_left"],
+		"close_button_side": "left"
 	},
 	{
 		"class": "tab_control", "attributes": ["selected"],
@@ -482,17 +485,17 @@
 		"layer1.opacity": 1,
 		"layer2.texture": "Guna/assets/simple/tab/tab-sel2.png",
 		"layer2.inner_margin": [8, 8, 12, 20],
-		"layer2.tint": #icon-color-selected,
-		"layer2.opacity": 1,
-		"layer3.opacity": 0
+		"layer2.tint": #tab-underscore-color,
+		"layer2.opacity": 1
 	},
 	{
 		"class": "tab_control", "attributes": ["hover"],
-		"layer2.opacity": #tab-hover-opacity
+		"layer2.opacity": #tab-opacity-hover
 	},
 	{
 		"class": "tab_control", "attributes": ["selected", "hover"],
-		"layer2.tint": #tab-font-color-hover
+		"layer2.opacity": 1,
+		"layer2.tint": #tab-underscore-color-hover
 	},
 	{
 		"class": "tab_label",

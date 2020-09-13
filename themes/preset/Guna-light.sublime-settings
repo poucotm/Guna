@@ -30,8 +30,9 @@
 	"tab_font.color.hover": "#ED9366",
 	"tab_font.color.dirty": "#FF1919",
 	"tab.opacity": 0.3,
-	"tab.hover.opacity": 0.7,
-	"tab.delimiter.opacity": 0.3,
+	"tab.opacity.hover": 0.6,
+	"tab.underscore.color": "#ED9366",
+	"tab.underscore.color.hover": "#8DB386",
 
 	// select label font
 	"label_font.face": "Dejavu Sans",
