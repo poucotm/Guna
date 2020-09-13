@@ -614,9 +614,13 @@
 		"layer1.tint": "color(var(--background))",
 		"layer1.opacity": 1,
 		"layer2.texture": "Guna/assets/simple/tab/tab2.png",
-		"layer2.inner_margin": [1, 0, 1, 10],
+		"layer2.inner_margin": [4, 15, 4, 10],
 		"layer2.tint": "color(var(--background) l(+ 8%))",
-		"layer2.opacity": 1,
+		"layer2.opacity": 0.3,
+		"layer3.texture": "Guna/assets/simple/tab/tab3.png",
+		"layer3.inner_margin": [1, 0, 1, 10],
+		"layer3.tint": "color(var(--background) l(+ 8%))",
+		"layer3.opacity": 0.3,
 		"content_margin": [10, -8, 10, 0],
 		"max_margin_trim": 16
 	},
@@ -633,16 +637,18 @@
 		"layer1.tint": "color(var(--background))",
 		"layer1.opacity": 1,
 		"layer2.texture": "Guna/assets/simple/tab/tab-sel2.png",
-		"layer2.inner_margin": [8, 8, 12, 10],
+		"layer2.inner_margin": [8, 8, 12, 20],
 		"layer2.tint": [255, 204, 103],
 		"layer2.opacity": 1,
+		"layer3.opacity": 0
 	},
 	{
-		"class": "tab_control", "attributes": ["hover"]
+		"class": "tab_control", "attributes": ["hover"],
+		"layer2.opacity": 0.8
 	},
 	{
 		"class": "tab_control", "attributes": ["selected", "hover"],
-		"layer3.tint": [0, 181, 217]
+		"layer2.tint": [255, 204, 103]
 	},
 	{
 		"class": "tab_label",

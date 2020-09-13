@@ -21,7 +21,7 @@
 	"icon.color.pressed": "#FF5500",
 	"icon.color.hover": "#D9D9D9",
 
-	// select tab font
+	// select tab option
 	"tab_font.face": "Dejavu Sans",
 	"tab_font.bold": false,
 	"tab_font.size": 13,
@@ -29,6 +29,9 @@
 	"tab_font.color.selected": "#FFFFFF",
 	"tab_font.color.hover": "#FFCC67",
 	"tab_font.color.dirty": "#FF3377",
+	"tab.opacity": 0.3,
+	"tab.hover.opacity": 0.6,
+	"tab.delimiter.opacity": 0.5,
 
 	// select label font
 	"label_font.face": "Dejavu Sans",
