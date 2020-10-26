@@ -19,6 +19,10 @@
 								"caption": "README",
 								"command": "guna_readme"
 							},
+							{
+								"caption": "Open an Issue",
+								"command": "guna_issue"
+							},
 							{ "caption": "-" },
 							{ "caption": "-" },
 							{
@@ -47,7 +51,7 @@
 							},
 							{ "caption": "-" },
 							{
-								"caption": "Upscale Icon - A File Icon",
+								"caption": "Upscale Icons - A File Icon",
 								"command": "guna_upscale_icon",
 							},
 						]

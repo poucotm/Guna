@@ -23,7 +23,7 @@ try:
     from .core import api
     from .core.api import GunaApi
     from .core import engine
-    from .core.engine import (GunaEventListener, GunaSwitchWidget, GunaSetTheme, GunaTweakTheme, GunaToggleFullScreen, GunaReadme, GunaUpscaleIcon)
+    from .core.engine import (GunaEventListener, GunaSwitchWidget, GunaSetTheme, GunaTweakTheme, GunaToggleFullScreen, GunaReadme, GunaIssue, GunaUpscaleIcon)
     import_ok = True
 except Exception:
     print ('GUNA : ERROR ________________________________________________')
