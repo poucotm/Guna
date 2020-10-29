@@ -1191,7 +1191,7 @@
 	{
 		"class": "puck_control",
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-v-mpk-flat.png",
-		"layer0.tint": [41, 112, 128],
+		"layer0.tint": [179, 170, 89],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [0, 10],
 		"content_margin": [7, 24],
@@ -1246,7 +1246,7 @@
 		"class": "puck_control",
 		"parents": [{"class": "sidebar_container"}],
 		"layer0.texture": "Guna/assets/simple/scroll-bar/scroll-bar-v-spk-flat.png",
-		"layer0.tint": [41, 112, 128],
+		"layer0.tint": [179, 170, 89],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [0, 10],
 		"content_margin": [7, 24],
