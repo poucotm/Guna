@@ -15,6 +15,8 @@ Guna uses [__Dejavu Sans__][L1] as default font for UI and [__Roboto Condensed__
 
 ### Widgets
 
+__✹ Widgets can be viewed on other themes ✹__
+
 __Clock__ / __Date__ : The color of clock expresses the status of active view.
 
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-normal.png) : Normal state  

@@ -6,6 +6,7 @@
 	// Widget switching is possible with 'shift+esc'
 	"sidebar_widget": ["clock"],
 	"sidebar_widget_clock_mode": "24h",
+	"sidebar_widget_on_other_theme": true,
 
 	// Hide tab close button
 	"hide_tab_close": false,

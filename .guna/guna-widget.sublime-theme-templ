@@ -1,0 +1,24 @@
+[
+	{
+		"class": "sidebar_container",
+		"settings": ["!gnwidgx", "gnwidgo"],
+		#wscale-@1.0x"content_margin": [0, 45, 0, 0],
+		#wscale-@1.3x"content_margin": [0, 60, 0, 0],
+		#wscale-@1.8x"content_margin": [0, 82, 0, 0],
+		"layer1.tint": [255, 255, 255],
+		"layer2.tint": [255, 255, 255],
+		"layer3.tint": [255, 255, 255]
+	},
+
+#widget-clock
+	{ "class": "sidebar_container", "settings" : ["gnwidg1"], "layer1.tint": #clock-color },
+	{ "class": "sidebar_container", "settings" : ["gnwidg1"], "layer2.tint": #clock-color },
+	{ "class": "sidebar_container", "settings" : ["gnwidg1"], "layer3.tint": #clock-color },
+
+#widget-date
+	{ "class": "sidebar_container", "settings" : ["gnwidg2"], "layer1.tint": #clock-color },
+	{ "class": "sidebar_container", "settings" : ["gnwidg2"], "layer2.tint": #clock-color },
+	{ "class": "sidebar_container", "settings" : ["gnwidg2"], "layer3.tint": #clock-color },
+
+#widget-weather
+]
