@@ -15,8 +15,6 @@ Guna uses [__Dejavu Sans__][L1] as default font for UI and [__Roboto Condensed__
 
 ### Widgets
 
-__✹ Widgets can be viewed on other themes ✹__
-
 __Clock__ / __Date__ : The color of clock expresses the status of active view.
 
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-normal.png) : Normal state  
@@ -27,6 +25,10 @@ __Clock__ / __Date__ : The color of clock expresses the status of active view.
 __Weather__ : The weather widget has been added (from v1.4.0). The widget uses [https://openweathermap.org](https://openweathermap.org) for weather information and you can access after getting your own [__AppID__](http://openweathermap.org/appid). After getting it, fill out weather settings in [__Guna.sublime-settings__][L6]. The 1st icon means current weather, the 2nd icon means forecast in 3 hours, the 3rd icon means forecast in 6 hours. Normally, it will be updated every half an hour.
 
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-weather.png)
+
+__✹ Widgets can be viewed on other themes__
+
+![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-widget-ayu.png)
 
 ### Adaptive Theme
 
