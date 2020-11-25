@@ -46,8 +46,8 @@
 
 	// coloring
 	"guna_bgcolor": "#161C23", // use "#131B1F" when too bluish
-	"guna_color_saturation" : 100, // relative percentage
-	"guna_color_brightness" : 100,
+	"guna_color_saturation" : 75, // relative percentage
+	"guna_color_brightness" : 95,
 	// indent guide
 	"guna_guide": "#20272E",
 	"guna_active_guide": "#AAFF9954", // for "indent_guide_options" : "draw_active"
