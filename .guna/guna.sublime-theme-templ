@@ -8,12 +8,12 @@
 
 [
 
-	{
-		"class": "title_bar",
-		"settings": ["gn_title_bar"],
-		"bg": "var(--background)",
-		"fg": "var(--foreground)"
-	},
+	#title-bar{
+	#title-bar	"class": "title_bar",
+	#title-bar	"settings": ["gn_title_bar"],
+	#title-bar	"bg": "var(--background)",
+	#title-bar	"fg": "var(--foreground)"
+	#title-bar},
 
 	{
 		"class" : "sheet_container_control",
