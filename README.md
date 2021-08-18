@@ -3,26 +3,26 @@
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/Guna.svg?style=round-square)](https://packagecontrol.io/packages/Guna)
 [![PayPal](https://img.shields.io/badge/paypal-donate-blue.svg)][PM]
 
-Guna is most innovative theme for sublime text 3. It supports various functions : conspicuous widgets (clock, weather) on sidebar, manually or adaptively tweakable theme colors, controlling status bar label by its own api.
+Guna is the most innovative theme for sublime text 3. It supports various functions : conspicuous widgets (clock, weather) on the sidebar, manually or adaptively tweakable theme colors, controlling status bar label by its own API.
 
 ### Theme Activation
 
-Simply, run __*Guna*__ in __*command palette*__ (*cmd/ctrl+shift+p*). In case that other color-scheme is selected on adaptive mode, it reverts to Guna's original color-scheme. I recommend that you select __*View > Side Bar > Hide Open Files*__ for better view. When Guna removed, it automatically restores theme and color-scheme as the last before activating Guna.
+Simply, run __*Guna*__ in __*command palette*__ (*cmd/ctrl+shift+p*). In case that other color scheme is selected on adaptive mode, it reverts to Guna's original color scheme. I recommend that you select __*View > Side Bar > Hide Open Files*__ for a better view. When Guna is removed, it automatically restores theme and color scheme as the last before activating Guna.
 
 ### Fonts
 
-Guna uses [__Dejavu Sans__][L1] as default font for UI and [__Roboto Condensed__][L2] is used only for status bar. But you can change them in the theme-tweak settings as you want. The editor font is __Menlo__ ([__Meslo__][L5]) in screenshots above.
+Guna uses [__Dejavu Sans__][L1] as the default font for UI and [__Roboto Condensed__][L2] is used only for the status bar. But you can change them in the theme-tweak settings as you want. The editor font is __Menlo__ ([__Meslo__][L5]) in the screenshots above.
 
 ### Widgets
 
-__Clock__ / __Date__ : The color of clock expresses the status of active view.
+__Clock__ / __Date__ : The color of the clock expresses the status of active view.
 
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-normal.png) : Normal state  
-![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-dirty.png) : Dirty or scrach state  
-![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-reado.png) : Read only state  
+![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-dirty.png) : Dirty or scratch state  
+![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-reado.png) : Read-only state  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-alert.png) : Alert state (only controlled by API)  
 
-__Weather__ : The weather widget has been added (from v1.4.0). The widget uses [https://openweathermap.org](https://openweathermap.org) for weather information and you can access after getting your own [__AppID__](http://openweathermap.org/appid). After getting it, fill out weather settings in [__Guna.sublime-settings__][L6]. The 1st icon means current weather, the 2nd icon means forecast in 3 hours, the 3rd icon means forecast in 6 hours. Normally, it will be updated every half an hour.
+__Weather__ : The weather widget has been added (from v1.4.0). The widget uses [https://openweathermap.org](https://openweathermap.org) for weather information and you can access it after getting your own [__AppID__](http://openweathermap.org/appid). After getting it, fill out weather settings in [__Guna.sublime-settings__][L6]. The 1st icon means current weather, the 2nd icon means forecast in 3 hours, the 3rd icon means forecast in 6 hours. Normally, it will be updated every half an hour.
 
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-weather.png)
 
@@ -32,7 +32,7 @@ __✹ Widgets can be viewed on other themes__
 
 ### Adaptive Theme
 
-Guna automatically tweaks theme colors to match selected other color-scheme. Basically, by matching background color, Guna can be combined with other color-schemes, like Monokai, Mariana, Ayu, ... Some examples are below. Guna also supports an easy way to __customize theme colors and fonts__. In order to override colors and font faces, use __*Preferences > Package Settings > Guna > Dark (Light) theme settings*__ ([__Guna theme settings__][L11]).
+Guna automatically tweaks theme colors to match selected other color scheme. Basically, by matching background color, Guna can be combined with other color schemes, like Monokai, Mariana, Ayu, ... Some examples are below. Guna also supports an easy way to __customize theme colors and fonts__. In order to override colors and font faces, use __*Preferences > Package Settings > Guna > Dark (Light) theme settings*__ ([__Guna theme settings__][L11]).
 
 __*Adaptive Theme Testing Shot*__
 
@@ -55,7 +55,7 @@ Please, refer to [__Guna's API__][L10]
 
 ### UI Scaling
 
-Guna supports __HiDPI__ with ui scaling. [__Guna theme settings__][L11]
+Guna supports __HiDPI__ with UI scaling. [__Guna theme settings__][L11]
 
 ```
 {
@@ -67,8 +67,8 @@ Guna supports __HiDPI__ with ui scaling. [__Guna theme settings__][L11]
 
 ### File Type Icons
 
-Guna doesn't have it's own file type icons except for Verilog/Systemverilog.
-In screenshots above, [A File Icon][L7] is used, and recommended.
+Guna doesn't have its own file type icons except for Verilog/Systemverilog.
+In screenshots above, [A File Icon][L7] is used and recommended.
 
 ### Donate
 
