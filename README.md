@@ -3,7 +3,7 @@
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/Guna.svg?style=round-square)](https://packagecontrol.io/packages/Guna)
 [![PayPal](https://img.shields.io/badge/paypal-donate-blue.svg)][PM]
 
-Guna is the most innovative theme for sublime text 3. It supports various functions : conspicuous widgets (clock, weather) on the sidebar, manually or adaptively tweakable theme colors, controlling status bar label by its own API.
+Guna is the most innovative theme for sublime text. It supports various functions : conspicuous widgets (clock, weather) on the sidebar, manually or adaptively tweakable theme colors, controlling status bar label by its own API.
 
 ### Theme Activation
 
