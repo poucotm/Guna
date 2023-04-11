@@ -33,7 +33,6 @@ DEFAULT_COLOR = 'Packages/Color Scheme - Default/Monokai.sublime-color-scheme'
 ICONS_PACKAGE = 'A File Icon'
 stopped   = False
 lock_file = [
-    ('Guna', 'Guna.py'),
     ('Guna', 'Guna.sublime-settings'),
     ('Guna', 'themes', 'preset', 'Guna-dark.sublime-settings'),
     ('Guna', 'themes', 'preset', 'Guna-light.sublime-settings')
@@ -349,9 +348,9 @@ def icons():
     return
 
 def disp_error():
-    print ('GUNA : ERROR ________________________________________________')
+    print ('GUNA : ERROR ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――')
     traceback.print_exc()
-    print ('============================================================')
+    print ('――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――')
     api.GunaApi.alert_message(3, " GUNA : Error is occured. Please, see the trace-back message in Sublime console.", 10, 1)
 
 def timenow():
@@ -852,8 +851,8 @@ class GunaMainThread(threading.Thread):
             else:
                 GunaMainThread.clean_weather_files(wpath, fpath)
         except:
-            GunaMainThread.clean_weather_files(wpath, fpath)
-            disp_error()
+            # GunaMainThread.clean_weather_files(wpath, fpath)
+            # disp_error()
             pass
         return
 

@@ -24,11 +24,12 @@ try:
     from .core.api import GunaApi
     from .core import engine
     from .core.engine import (GunaEventListener, GunaSwitchWidget, GunaSetTheme, GunaTweakTheme, GunaTweakWidget, GunaReadme, GunaIssue, GunaUpscaleIcon)
+    from .core.util import (GunaColorEdit)
     import_ok = True
 except Exception:
-    print ('GUNA : ERROR ________________________________________________')
+    print ('GUNA : ERROR ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――')
     traceback.print_exc()
-    print ('=============================================================')
+    print ('――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――')
     import_ok = False
 
 # package control
