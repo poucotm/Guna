@@ -27,7 +27,6 @@ from . import api
 from . import persist
 
 STVER = int(sublime.version())
-cachepath = ''
 DEFAULT_THEME = 'Default.sublime-theme'
 DEFAULT_COLOR = 'Packages/Color Scheme - Default/Monokai.sublime-color-scheme'
 ICONS_PACKAGE = 'A File Icon'
@@ -50,7 +49,6 @@ widget_index = 0
 nok_cnt      = 0
 
 def start():
-    cache_loaded()
     api.set_except()
     GunaMainThread.clean_gnis()
     check_gpu_window_buffer()
@@ -129,7 +127,6 @@ def engine_reload():
     ttbar = gunas.get('title_bar_color', True)
     gopts = str(csopt) + str(cbopt) + gdclr + agclr + brclr + tgclr + bropt + tgopt + str(ttbar)
     if theme != last_theme or color != last_color or bgclr != last_bgclr or gopts != last_gopts:
-        record_theme()
         last_color = color
         tweak = True
     gunas, widgt, wigon, is_clock = get_gunas('clock')
@@ -242,90 +239,11 @@ def check_status(prefs=None, view=None):
                     if is_dirty:
                         prefs.set(persist.GNC_DIRTY, False)
 
-def record_theme():
-    try:
-        rcthe = DEFAULT_THEME
-        rcclr = DEFAULT_COLOR
-        fname = os.path.join(sublime.cache_path(), 'Guna', 'cache', '.record_theme')
-        if os.path.exists(fname):
-            with open(fname, 'r', encoding="utf8") as f:
-                txt = str(f.read())
-            for line in txt.splitlines():
-                if line.endswith('.sublime-theme'):
-                    rcthe = line
-                elif line.endswith('.tmTheme') or line.endswith('.sublime-color-scheme'):
-                    rcclr = line
-        prefs, theme, is_guna = get_prefs()
-        color = prefs.get('color_scheme', DEFAULT_COLOR)
-        if is_guna:
-            theme = rcthe
-        if color.startswith('Packages/Guna'):
-            color = rcclr
-        fpath = os.path.join(sublime.cache_path(), 'Guna', 'cache')
-        if not os.path.exists(fpath):
-            os.makedirs(fpath)
-        fname = os.path.join(sublime.cache_path(), 'Guna', 'cache', '.record_theme')
-        text  = theme + '\n' + color + '\n'
-        with open(fname, "w", newline="", encoding="utf8") as f:
-            f.write(text)
-    except Exception:
-        disp_error()
-
 def restore_theme():
-    try:
-        prefs, theme, is_guna = get_prefs()
-        if not is_guna:
-            return
-        theme = DEFAULT_THEME
-        color = DEFAULT_COLOR
-        fname = os.path.join(sublime.cache_path(), 'Guna', 'cache', '.record_theme')
-        if os.path.exists(fname):
-            with open(fname, 'r', encoding="utf8") as f:
-                txt = str(f.read())
-            for line in txt.splitlines():
-                if line.endswith('.sublime-theme'):
-                    theme = line
-                elif line.endswith('.tmTheme') or line.endswith('.sublime-color-scheme'):
-                    color = line
-        tlist = sublime.find_resources(theme)
-        if len(tlist) == 0:
-            theme = DEFAULT_THEME
-        clist = sublime.find_resources(os.path.basename(color))
-        if not any(color == c for c in clist):
-            color = DEFAULT_COLOR
-        prefs = sublime.load_settings("Preferences.sublime-settings")
-        prefs.set('color_scheme', color)
-        prefs.set('theme', theme)
-        sublime.save_settings("Preferences.sublime-settings")
-    except Exception:
-        prefs = sublime.load_settings("Preferences.sublime-settings")
-        prefs.set('color_scheme', DEFAULT_COLOR)
-        prefs.set('theme', DEFAULT_THEME)
-        sublime.save_settings("Preferences.sublime-settings")
-        disp_error()
-
-def get_time():
-    global cachepath
-    global cachetime
-    if cachetime == 0:
-        return vSicIYDw(cachepath)
-    else:
-        return cachetime
-
-def cache_loaded():
-    global cachepath
-    global cachetime
-    fpath = os.path.join(sublime.cache_path(), 'Guna', 'cache')
-    if not os.path.exists(fpath):
-        os.makedirs(fpath)
-    try:
-        dat = urllib.request.urlopen('http://api.openweathermap.org').headers['Date']
-        cachetime = int(maketime(dat, '%a, %d %b %Y %H:%M:%S %Z'))
-    except:
-        cachetime = 0
-        fpath = os.path.join(sublime.cache_path(), 'Guna', 'cache', '.loaded.num')
-        open(fpath, 'w').close()
-        cachepath = fpath
+    prefs = sublime.load_settings("Preferences.sublime-settings")
+    prefs.set('color_scheme', DEFAULT_COLOR)
+    prefs.set('theme', DEFAULT_THEME)
+    sublime.save_settings("Preferences.sublime-settings")
 
 def check_gpu_window_buffer():
     if sublime.platform() == 'osx':
@@ -935,7 +853,6 @@ class GunaSetTheme(sublime_plugin.WindowCommand):
 
     def run(self):
         try:
-            record_theme()
             prefs, theme, is_guna = get_prefs()
             prefs = sublime.load_settings("Preferences.sublime-settings")
             prefs.set('theme', 'Guna.sublime-theme')
