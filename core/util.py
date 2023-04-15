@@ -42,7 +42,7 @@ class GunaColorEdit(sublime_plugin.TextCommand):
             v = v - 5
             v = 0 if v < 0 else v
         r, g, b = colorsys.hsv_to_rgb(h, s, v)
-        ccode = '{:02X}{:02X}{:02X}'.format(int(r), int(g), int(b))
+        ccode = '{:02x}{:02x}{:02x}'.format(int(r), int(g), int(b))
         self.view.replace(edit, selr, ccode)
 
     def conv_hex_color(self, hc):
