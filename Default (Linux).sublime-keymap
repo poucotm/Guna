@@ -6,6 +6,6 @@
 	{"keys" : ["ctrl+alt+down"], "command": "guna_color_edit", "args": {"cmd" : "hue_down"} },
 	{"keys" : ["ctrl+alt+right"], "command": "guna_color_edit", "args": {"cmd" : "sat_up"} },
 	{"keys" : ["ctrl+alt+left"], "command": "guna_color_edit", "args": {"cmd" : "sat_down"} },
-	{"keys" : ["ctrl+alt+pageup"], "command": "guna_color_edit", "args": {"cmd" : "bri_up"} },
-	{"keys" : ["ctrl+alt+pagedown"], "command": "guna_color_edit", "args": {"cmd" : "bri_down"} }
+	{"keys" : ["ctrl+alt+-"], "command": "guna_color_edit", "args": {"cmd" : "bri_up"} },
+	{"keys" : ["ctrl+alt+="], "command": "guna_color_edit", "args": {"cmd" : "bri_down"} }
 ]
