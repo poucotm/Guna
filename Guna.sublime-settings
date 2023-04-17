@@ -45,6 +45,7 @@
 	*/
 
 	// coloring
+	"guna_fgcolor": "#E5E0D3",
 	"guna_bgcolor": "#161C23", // use "#131B1F" when too bluish
 	"guna_color_saturation" : 75, // relative percentage
 	"guna_color_brightness" : 95,

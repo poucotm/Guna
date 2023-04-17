@@ -115,6 +115,7 @@ def engine_reload():
     prefs, theme, is_guna = get_prefs()
     color = prefs.get('color_scheme', '')
     gunas = sublime.load_settings("Guna.sublime-settings")
+    fgclr = gunas.get('guna_fgcolor', '#E5E0D3')
     bgclr = gunas.get('guna_bgcolor', '#161C23')
     csopt = gunas.get('guna_color_saturation', 100)
     cbopt = gunas.get('guna_color_brightness', 100)
@@ -125,7 +126,7 @@ def engine_reload():
     bropt = gunas.get('guna_brackets_options', 'foreground')
     tgopt = gunas.get('guna_tags_options', 'foreground')
     ttbar = gunas.get('title_bar_color', True)
-    gopts = str(csopt) + str(cbopt) + gdclr + agclr + brclr + tgclr + bropt + tgopt + str(ttbar)
+    gopts = str(csopt) + str(cbopt) + fgclr + gdclr + agclr + brclr + tgclr + bropt + tgopt + str(ttbar)
     if theme != last_theme or color != last_color or bgclr != last_bgclr or gopts != last_gopts:
         last_color = color
         tweak = True
@@ -932,6 +933,7 @@ class GunaTweakTheme(sublime_plugin.WindowCommand):
                     treep = plistlib.readPlistFromBytes(cstxt.encode())
                     bgclr = treep['settings'][0]['settings']['background']
             else:
+                fgclr = gunas.get('guna_fgcolor', '#E5E0D3')
                 bgclr = gunas.get('guna_bgcolor', '#161C23')
                 csopt = gunas.get('guna_color_saturation', 100)
                 cbopt = gunas.get('guna_color_brightness', 100)
@@ -941,7 +943,7 @@ class GunaTweakTheme(sublime_plugin.WindowCommand):
                 tgclr = gunas.get('guna_tags_color', '#FF5242')
                 bropt = gunas.get('guna_brackets_options', 'foreground')
                 tgopt = gunas.get('guna_tags_options', 'foreground')
-                gopts = str(csopt) + str(cbopt) + gdclr + agclr + brclr + tgclr + bropt + tgopt + str(ttbar)
+                gopts = str(csopt) + str(cbopt) + fgclr + gdclr + agclr + brclr + tgclr + bropt + tgopt + str(ttbar)
                 global last_bgclr
                 last_bgclr  = bgclr
                 global last_gopts
@@ -993,6 +995,7 @@ class GunaTweakTheme(sublime_plugin.WindowCommand):
             wtxt = wtxt.replace('#base-color', bgclr)
             if gunac:
                 ctxt  = ctxt.replace('#base-color', bgclr)
+                ctxt  = ctxt.replace('#fore-color', fgclr)
                 ctxt  = ctxt.replace('#guide-color', gdclr)
                 ctxt  = ctxt.replace('#active-guide-color', agclr)
                 ctxt  = ctxt.replace('#bracket-color', brclr)
