@@ -46,6 +46,7 @@ last_bgclr   = ''
 last_gopts   = ''
 last_wigon   = ''
 widget_index = 0
+font_index   = 0
 nok_cnt      = 0
 
 def start():
@@ -815,6 +816,19 @@ class GunaMainThread(threading.Thread):
                 prefs.set(persist.GNW_WIDGET_WEATHER, True)
         return
 
+    @staticmethod
+    def switch_font(updown):
+        prefs = sublime.load_settings("Preferences.sublime-settings")
+        gunas = sublime.load_settings("Guna.sublime-settings")
+        fonts = gunas.get('font_switch', [])
+        if len(fonts) > 0:
+            global font_index
+            font_index = (font_index + 1) if updown == 0 else (font_index - 1)
+            font_index = font_index % len(fonts)
+            prefs.set("font_face", fonts[font_index])
+            sublime.status_message(' Font : ' + fonts[font_index])
+        return
+
 class GunaEventListener(sublime_plugin.EventListener):
 
     def on_new_async(self, view):
@@ -1495,3 +1509,9 @@ class GunaUpscaleIcon(sublime_plugin.WindowCommand):
         except Exception:
             disp_error()
         return
+
+class GunaSwitchFont(sublime_plugin.WindowCommand):
+
+    def run(self, **args):
+        updown = 0 if args['cmd'] == 'up' else 1
+        GunaMainThread.switch_font(updown)

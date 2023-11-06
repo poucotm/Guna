@@ -1,6 +1,8 @@
 [
 	{ "keys": ["alt+f5"], "command": "refresh_folder_list" },
-	{ "keys": ["shift+escape"], "command": "guna_switch_widget" }
+	{ "keys": ["shift+escape"], "command": "guna_switch_widget" },
+	{ "keys": ["alt+pageup"], "command": "guna_switch_font", "args": {"cmd" : "up"} },
+	{ "keys": ["alt+pagedown"], "command": "guna_switch_font", "args": {"cmd" : "down"} },
 
 	// {"keys" : ["alt+shift+up"], "command": "guna_color_edit", "args": {"cmd" : "hue_up"} },
 	// {"keys" : ["alt+shift+down"], "command": "guna_color_edit", "args": {"cmd" : "hue_down"} },
