@@ -46,7 +46,7 @@ last_bgclr   = ''
 last_gopts   = ''
 last_wigon   = ''
 widget_index = 0
-font_index   = 0
+font_index   = -1
 nok_cnt      = 0
 
 def start():
@@ -823,10 +823,18 @@ class GunaMainThread(threading.Thread):
         fonts = gunas.get('font_switch', [])
         if len(fonts) > 0:
             global font_index
+            if font_index < 0:
+                font_index = 0
+                fface = prefs.get("font_face", "system")
+                for i, f in enumerate(fonts):
+                    if f[0] == fface:
+                        font_index = i
+                        break
             font_index = (font_index - 1) if updown == 0 else (font_index + 1)
             font_index = font_index % len(fonts)
             prefs.set("font_face", fonts[font_index][0])
             prefs.set("font_size", fonts[font_index][1])
+            sublime.save_settings("Preferences.sublime-settings")
             sublime.status_message(' Font : ' + fonts[font_index][0] + ' (' + str(fonts[font_index][1]) + ')')
         return
 
