@@ -823,10 +823,11 @@ class GunaMainThread(threading.Thread):
         fonts = gunas.get('font_switch', [])
         if len(fonts) > 0:
             global font_index
-            font_index = (font_index + 1) if updown == 0 else (font_index - 1)
+            font_index = (font_index - 1) if updown == 0 else (font_index + 1)
             font_index = font_index % len(fonts)
-            prefs.set("font_face", fonts[font_index])
-            sublime.status_message(' Font : ' + fonts[font_index])
+            prefs.set("font_face", fonts[font_index][0])
+            prefs.set("font_size", fonts[font_index][1])
+            sublime.status_message(' Font : ' + fonts[font_index][0] + ' (' + str(fonts[font_index][1]) + ')')
         return
 
 class GunaEventListener(sublime_plugin.EventListener):

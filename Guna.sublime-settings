@@ -62,8 +62,8 @@
 	/*  etc.  _____________________________________________________
 	*/
 
-	// Switch font settings (with 'alt+pageup/down') - e.g) "font_switch": ["Meslo LG S DZ", "JetBrains Mono", "Cascadia Code", "Source Code Pro"]
-	"font_switch": [""],
+	// Switch font settings (with 'alt+pageup/down') - e.g) "font_switch": [ ["Meslo LG S DZ", 11], ["JetBrains Mono", 11], ["Cascadia Code", 12], ["Source Code Pro", 16] ]
+	"font_switch": [],
 
 	// automatically check and set 'gpu_window_buffer' as false for OSX to prevent screen flickering
 	"gpu_window_buffer_false": true
