@@ -1,9 +1,9 @@
 [![Image of Guna][S1]][S1]
 
-[![Package Control](https://packagecontrol.herokuapp.com/downloads/Guna.svg?style=round-square)](https://packagecontrol.io/packages/Guna)
+[![Package Control](https://img.shields.io/packagecontrol/dt/Guna?logo=github&color=FF1919)][GUNA]
 [![PayPal](https://img.shields.io/badge/paypal-donate-blue.svg)][PM]
 
-Guna is the most innovative theme for sublime text. It supports various functions : conspicuous widgets (clock, weather) on the sidebar, manually or adaptively tweakable theme colors, controlling status bar label by its own API.
+Guna is the most innovative theme for sublime text. It supports various functions : conspicuous widgets (clock, weather, date) on the sidebar, manually or adaptively tweakable theme colors, font switching, controlling status bar label by its own API.
 
 ### Theme Activation
 
@@ -106,3 +106,4 @@ Guna is licensed under a [Creative Commons Attribution-NonCommercial 4.0 Interna
 [L18]:https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/yaml.png
 [PP]:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=89YVNDSC7DZHQ "PayPal"
 [PM]:https://www.paypal.me/poucotm/1.0 "PayPal"
+[GUNA]:https://packagecontrol.io/packages/Guna "Guna"
