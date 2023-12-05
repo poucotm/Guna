@@ -37,4 +37,14 @@ GunaApi.info_message(flag=0, message='', timeout=4, action=0):
 
     action = GunaApi.FLICKER
     """
+
+GunaApi.GunaApi.hide_sidebar():
+    """
+   Hide the sidebar
+    """
+
+GunaApi.GunaApi.show_sidebar():
+    """
+    Show the sidebar
+    """
 ```

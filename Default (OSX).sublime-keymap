@@ -3,11 +3,6 @@
 	{ "keys": ["shift+escape"], "command": "guna_switch_widget" },
 	{ "keys": ["alt+pageup"], "command": "guna_switch_font", "args": {"cmd" : "up"} },
 	{ "keys": ["alt+pagedown"], "command": "guna_switch_font", "args": {"cmd" : "down"} },
-
-	// {"keys" : ["alt+shift+up"], "command": "guna_color_edit", "args": {"cmd" : "hue_up"} },
-	// {"keys" : ["alt+shift+down"], "command": "guna_color_edit", "args": {"cmd" : "hue_down"} },
-	// {"keys" : ["alt+shift+right"], "command": "guna_color_edit", "args": {"cmd" : "sat_up"} },
-	// {"keys" : ["alt+shift+left"], "command": "guna_color_edit", "args": {"cmd" : "sat_down"} },
-	// {"keys" : ["alt+shift+-"], "command": "guna_color_edit", "args": {"cmd" : "bri_up"} },
-	// {"keys" : ["alt+shift+="], "command": "guna_color_edit", "args": {"cmd" : "bri_down"} }
+	{ "keys": ["ctrl+alt+s"], "command": "guna_aux_cmds", "args": {"cmd" : "show_sidebar"} },
+	{ "keys": ["ctrl+alt+h"], "command": "guna_aux_cmds", "args": {"cmd" : "hide_sidebar"} }
 ]

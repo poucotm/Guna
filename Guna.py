@@ -23,7 +23,8 @@ try:
     from .core import api
     from .core.api import GunaApi
     from .core import engine
-    from .core.engine import (GunaEventListener, GunaSwitchWidget, GunaSetTheme, GunaTweakTheme, GunaTweakWidget, GunaReadme, GunaIssue, GunaUpscaleIcon, GunaSwitchFont)
+    from .core.engine import (GunaEventListener, GunaSwitchWidget, GunaSetTheme, GunaTweakTheme, GunaTweakWidget, GunaReadme,
+        GunaIssue, GunaUpscaleIcon, GunaSwitchFont, GunaAuxCmds)
     from .core.util import (GunaColorEdit)
     import_ok = True
 except Exception:
@@ -59,6 +60,8 @@ def plugin_loaded():
             if events.install('Guna'):
                 sublime.active_window().run_command('guna_readme')
                 sublime.set_timeout_async(engine.icons(), 5000)
+            # show sidebar (as default)
+            sublime.active_window().run_command("guna_aux_cmds", {"cmd": "show_sidebar"})
 
         sublime.set_timeout_async(installed, 1000)
     else:

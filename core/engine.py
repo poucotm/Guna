@@ -1524,3 +1524,11 @@ class GunaSwitchFont(sublime_plugin.WindowCommand):
     def run(self, **args):
         updown = 0 if args['cmd'] == 'up' else 1
         GunaMainThread.switch_font(updown)
+
+class GunaAuxCmds(sublime_plugin.WindowCommand):
+
+    def run(self, **args):
+        if args['cmd'] == 'show_sidebar':
+            api.GunaApi.show_sidebar()
+        elif args['cmd'] == 'hide_sidebar':
+            api.GunaApi.hide_sidebar()

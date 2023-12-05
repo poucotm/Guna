@@ -90,6 +90,16 @@ class GunaApi():
         else:
             prefs.set(item, onoff)
 
+    @staticmethod
+    def hide_sidebar():
+        if sublime.active_window().is_sidebar_visible():
+            sublime.active_window().run_command('toggle_side_bar')
+
+    @staticmethod
+    def show_sidebar():
+        if not sublime.active_window().is_sidebar_visible():
+            sublime.active_window().run_command('toggle_side_bar')
+
 class GunaAlertThread(threading.Thread):
 
     def __init__(self, message, timeout, action, alert=True):
