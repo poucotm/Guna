@@ -817,21 +817,34 @@ class GunaMainThread(threading.Thread):
         return
 
     @staticmethod
-    def switch_font(updown):
+    def switch_font(cmd):
         prefs = sublime.load_settings("Preferences.sublime-settings")
         gunas = sublime.load_settings("Guna.sublime-settings")
         fonts = gunas.get('font_switch', [])
+        sface = cmd
+        if cmd == 'up':
+            updown = 0
+        elif cmd == 'down':
+            updown = 1
+        else:
+            updown = 2
         if len(fonts) > 0:
             global font_index
             if font_index < 0:
                 font_index = 0
+            if updown == 0 or updown == 1:
                 fface = prefs.get("font_face", "system")
                 for i, f in enumerate(fonts):
                     if f[0] == fface:
                         font_index = i
                         break
-            font_index = (font_index - 1) if updown == 0 else (font_index + 1)
-            font_index = font_index % len(fonts)
+                font_index = (font_index - 1) if updown == 0 else (font_index + 1)
+                font_index = font_index % len(fonts)
+            else:
+                for i, f in enumerate(fonts):
+                    if f[0] == sface:
+                        font_index = i
+                        break
             prefs.set("font_face", fonts[font_index][0])
             prefs.set("font_size", fonts[font_index][1])
             sublime.save_settings("Preferences.sublime-settings")
@@ -1522,8 +1535,7 @@ class GunaUpscaleIcon(sublime_plugin.WindowCommand):
 class GunaSwitchFont(sublime_plugin.WindowCommand):
 
     def run(self, **args):
-        updown = 0 if args['cmd'] == 'up' else 1
-        GunaMainThread.switch_font(updown)
+        GunaMainThread.switch_font(args['cmd'])
 
 class GunaAuxCmds(sublime_plugin.WindowCommand):
 
