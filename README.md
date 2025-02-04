@@ -3,26 +3,26 @@
 [![Package Control](https://img.shields.io/packagecontrol/dt/Guna?logo=github&color=FF1919)][GUNA]
 [![PayPal](https://img.shields.io/badge/paypal-donate-blue.svg)][PM]
 
-Guna is the most innovative theme for sublime text. It supports various functions : conspicuous widgets (clock, weather, date) on the sidebar, manually or adaptively tweakable theme colors, font switching, controlling status bar label by its own API.
+Guna is an innovative theme for Sublime Text that offers a variety of features to enhance your coding experience. It includes prominent widgets such as a clock, weather updates, and date display on the sidebar. The theme colors are customizable, either manually or adaptively, allowing you to tweak them to your preference. Additionally, Guna supports font switching and provides an API to control the status bar label.
 
-### Theme Activation
+### Activating the Theme
 
-Simply, run __*Guna*__ in __*command palette*__ (*cmd/ctrl+shift+p*). In case that other color scheme is selected on adaptive mode, it reverts to Guna's original color scheme. I recommend that you select __*View > Side Bar > Hide Open Files*__ for a better view. When Guna is removed, it automatically restores theme and color scheme as the last before activating Guna.
+To activate Guna, open the command palette by pressing <code>Cmd</code>/<code>Ctrl</code> + <code>Shift</code> + <code>P</code>, then type and select "Guna." If another color scheme has been selected in adaptive mode, it will revert to Guna's original color scheme. For an optimal view, it's recommended to navigate to <code>View</code> > <code>Side Bar</code> and select <code>Hide Open Files</code>. Upon removal of Guna, the theme and color scheme will automatically restore to their previous settings before Guna was activated.
 
 ### Fonts
 
-Guna uses [__Dejavu Sans__][L1] as the default font for UI and [__Roboto Condensed__][L2] is used only for the status bar. But you can change them in the theme-tweak settings as you want. The editor font is __Menlo__ ([__Meslo__][L5]) in the screenshots above.
+By default, Guna uses [Dejavu Sans][L1] for the user interface and [Roboto Condensed][L2] specifically for the status bar. However, you can change these fonts in the theme-tweak settings according to your preferences. In the provided screenshots, the editor font used is Menlo, specifically the [Meslo][L5] variant.
 
 ### Widgets
 
-__Clock__ / __Date__ : The color of the clock expresses the status of active view.
+__Clock__ / __Date__ : The clock's color indicates the status of the active view:
 
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-normal.png) : Normal state  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-dirty.png) : Dirty or scratch state  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-reado.png) : Read-only state  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-status-alert.png) : Alert state (only controlled by API)  
 
-__Weather__ : The weather widget has been added (from v1.4.0). The widget uses [https://openweathermap.org](https://openweathermap.org) for weather information and you can access it after getting your own [__AppID__](http://openweathermap.org/appid). After getting it, fill out weather settings in [__Guna.sublime-settings__][L6]. The 1st icon means current weather, the 2nd icon means forecast in 3 hours, the 3rd icon means forecast in 6 hours. Normally, it will be updated every half an hour.
+__Weather__ : Introduced in version 1.4.0, the weather widget utilizes data from [Open Weather Map](https://openweathermap.org). To access this feature, obtain your own [AppID](http://openweathermap.org/appid) from Open Weather Map and configure the weather settings in [Guna.sublime-settings][L6]. The widget displays the current weather (1st icon) and forecasts for the next 3 and 6 hours (the 2nd, 3rd icon), updating every 30 minutes.
 
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-weather.png)
 
@@ -32,7 +32,7 @@ __✹ Widgets can be viewed on other themes__
 
 ### Adaptive Theme
 
-Guna automatically tweaks theme colors to match selected other color scheme. Basically, by matching background color, Guna can be combined with other color schemes, like Monokai, Mariana, Ayu, ... Some examples are below. Guna also supports an easy way to __customize theme colors and fonts__. In order to override colors and font faces, use __*Preferences > Package Settings > Guna > Dark (Light) theme settings*__ ([__Guna theme settings__][L11]).
+Guna automatically adjusts its theme colors to match the selected color scheme by aligning the background color. This allows seamless integration with various color schemes like Monokai, Mariana, Ayu, and others. For easy customization of theme colors and fonts, navigate to <code>Preferences</code> > <code>Package Settings</code> > <code>Guna</code> > <code>Dark (Light) theme settings</code>.
 
 __*Adaptive Theme Testing Shot*__
 
@@ -40,22 +40,18 @@ __*Adaptive Theme Testing Shot*__
 
 ### Syntax Color Scheme
 
-[__Python__][L12], [__Java__][L13], [__C++__][L14], [__Systemverilog__][L15], [__Html__][L16], [__Markdown__][L17], [__Yaml__][L18], ...
+Guna provides syntax color schemes for multiple programming languages, including [Python][L12], [Java][L13], [C++][L14], [Systemverilog][L15], [Html][L16], [Markdown][L17], [Yaml][L18], and more.
 
 ### API
 
-You can control Guna's screen through Guna's APIs.
-Currently, there are two functions for displaying alert situation.
-If you want to see the example, simply type __*raise*__ in Sublime console.
+Guna offers APIs to control its interface, such as functions to display alert situations. For example, typing <code>raise</code> in the Sublime console can demonstrate status bar label alerts. For more details, refer to [Guna's API documentation][L10].
 
 <sup>(example - status bar label)</sup>  
 ![Image of Guna](https://raw.githubusercontent.com/poucotm/Links/master/image/Guna/guna-alert-0.png)
 
-Please, refer to [__Guna's API__][L10]
-
 ### UI Scaling
 
-Guna supports __HiDPI__ with UI scaling. [__Guna theme settings__][L11]
+Guna supports HiDPI with UI scaling. You can adjust the sizes of buttons, file icons, tabs, widgets, and switch panel icons in the [theme settings][L11].
 
 ```
 {
@@ -67,13 +63,12 @@ Guna supports __HiDPI__ with UI scaling. [__Guna theme settings__][L11]
 
 ### File Type Icons
 
-Guna doesn't have its own file type icons except for Verilog/Systemverilog.
-In screenshots above, [A File Icon][L7] is used and recommended.
+While Guna doesn't include its own file type icons (except for Verilog/SystemVerilog), it is compatible with icon packages like [A File Icon][L7], which is recommended for use with Guna.
 
 ### Donate
 
 [![Doate Image](https://raw.githubusercontent.com/poucotm/Links/master/image/PayPal/donate-paypal.png)][PM]  
-Thank you for donating. It is helpful to continue to improve the plug-in.
+If you find Guna helpful and would like to support its continued development, consider making a donation. Your contributions are appreciated and assist in the ongoing improvement of the plugin.
 
 ### Credits
 
