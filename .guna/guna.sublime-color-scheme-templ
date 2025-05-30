@@ -351,5 +351,11 @@
 			"font_style": ""
 		},
 
+		{
+			"scope": "invalid.illegal.unclosed-string.json",
+			"background": "var(bgcolor)",
+			"font_style": ""
+		},
+
 	]
 }

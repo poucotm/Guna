@@ -5,15 +5,15 @@
 	{
 		"bgcolor" : "#161C23",
 		"black"   : "#000000",
-		"white"   : "#E5E0D3",
-		"red"     : "#FF3377",
-		"green"   : "#AAFF99",
-		"blue"    : "#00B5D9",
-		"yellow"  : "#FFEE99",
-		"orange"  : "#FFA352",
-		"lBlue"   : "#61daf2",
-		"rOrange" : "#FF5242",
-		"lOrange" : "#FFD9B2",
+		"white"   : "#D9D5CC",
+		"red"     : "#F26091",
+		"green"   : "#B5F2A9",
+		"blue"    : "#33B4CE",
+		"yellow"  : "#F2E6A9",
+		"orange"  : "#F2B076",
+		"lBlue"   : "#7ED4E5",
+		"rOrange" : "#F2766B",
+		"lOrange" : "#F2D7BB",
 		"tRed"    : "#FF0000",
 		"keyword" : "var(orange)",
 		"function": "var(rOrange)",
@@ -55,7 +55,7 @@
 		"bracket_contents_options": "foreground",
 		"bracket_contents_foreground": "#FF0000",
 		"tags_options": "foreground",
-		"tags_foreground": "var(rOrange)",
+		"tags_foreground": "#FF5242",
 		"shadow": "#1f24304d",
 		"shadow_width": "0",
 	},
@@ -348,6 +348,12 @@
 		{
 			"scope": "entity.name.class.error-code.sublime_linter",
 			"foreground": "var(lBlue)",
+			"font_style": ""
+		},
+
+		{
+			"scope": "invalid.illegal.unclosed-string.json",
+			"background": "var(bgcolor)",
 			"font_style": ""
 		},
 
