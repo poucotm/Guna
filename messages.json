@@ -35,5 +35,6 @@
 	"v4.3.0"  : "changelog/v4.3.0.md",
 	"v4.3.1"  : "changelog/v4.3.1.md",
 	"v4.4.0"  : "changelog/v4.4.0.md",
-	"v4.5.0"  : "changelog/v4.5.0.md"
+	"v4.5.0"  : "changelog/v4.5.0.md",
+	"v4.5.1"  : "changelog/v4.5.1.md"
 }
