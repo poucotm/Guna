@@ -452,12 +452,12 @@
 		"class": "tabset_control",
 		"layer1.texture": "Guna/assets/simple/tab/tab-bg0.png",
 		"layer1.inner_margin": [8, 8, 0, 10],
-		"layer1.tint": "color(var(--background)",
+		"layer1.tint": "color(var(--background))",
 		"layer1.opacity": 1,
 	},
 	{
 		"class": "tab_control",
-		"layer0.tint": "color(var(--background)",
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1,
 		"layer1.texture": "Guna/assets/simple/tab/tab0.png",
 		"layer1.inner_margin": [1, 0, 1, 10],
@@ -719,7 +719,7 @@
 
 	{
 		"class": "panel_control",
-		"layer0.tint": "color(var(--background)",
+		"layer0.tint": "color(var(--background))",
 		"layer0.opacity": 1,
 		"layer1.texture": "Guna/assets/simple/widget/widget-bg0.png",
 		"layer1.inner_margin": [6, 1, 2, 1],
